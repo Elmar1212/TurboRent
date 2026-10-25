@@ -1,0 +1,52 @@
+name: Foundation CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17.6-alpine
+        env:
+          POSTGRES_DB: turborent
+          POSTGRES_USER: turborent
+          POSTGRES_PASSWORD: ephemeral_ci_only
+        ports: ['55432:5432']
+        options: >-
+          --health-cmd "pg_isready -U turborent -d turborent"
+          --health-interval 5s --health-timeout 3s --health-retries 15
+    env:
+      TURBORENT_TEST_DATABASE: Host=127.0.0.1;Port=55432;Database=turborent;Username=turborent;Password=ephemeral_ci_only
+      ConnectionStrings__Database: Host=127.0.0.1;Port=55432;Database=turborent;Username=turborent;Password=ephemeral_ci_only
+      ASPNETCORE_ENVIRONMENT: Development
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+      - run: dotnet restore TurboRent.slnx --locked-mode
+      - run: dotnet build TurboRent.slnx --no-restore
+      - run: dotnet test TurboRent.slnx --no-build
+      - run: npm ci
+        working-directory: apps/web
+      - run: npm run build && npm run lint
+        working-directory: apps/web
+      - run: npx playwright install --with-deps chromium
+        working-directory: apps/web
+      - name: Start API
+        run: |
+          dotnet run --no-build --no-launch-profile --project src/backend/TurboRent.Api --urls http://127.0.0.1:5080 > /tmp/turborent-api.log 2>&1 &
+          for attempt in {1..30}; do
+            if curl --fail http://127.0.0.1:5080/api/v1/health/ready; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/turborent-api.log
+          exit 1
+      - run: npm run test:e2e
+        working-directory: apps/web

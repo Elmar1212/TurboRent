@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/backend/">
+    <Project Path="src/backend/TurboRent.Api/TurboRent.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/BuildingBlocks/">
+    <Project Path="src/backend/BuildingBlocks/TurboRent.BuildingBlocks/TurboRent.BuildingBlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Modules/" />
+  <Folder Name="/src/backend/Modules/System/">
+    <Project Path="src/backend/Modules/System/TurboRent.Modules.System/TurboRent.Modules.System.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/backend/">
+    <Project Path="tests/backend/TurboRent.IntegrationTests/TurboRent.IntegrationTests.csproj" />
+    <Project Path="tests/backend/TurboRent.UnitTests/TurboRent.UnitTests.csproj" />
+  </Folder>
+</Solution>
