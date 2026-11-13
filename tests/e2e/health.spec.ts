@@ -2,7 +2,7 @@ import { test, expect } from '../../apps/web/node_modules/@playwright/test'
 
 test('frontend reaches the API and real PostgreSQL', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByRole('heading', { name: 'Yolumuz buradan başlayır.' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Yolunuz üçün avtomobil tapın' })).toBeVisible()
   await expect(page.getByTestId('api-status')).toHaveText('İşləyir')
   await expect(page.getByTestId('database-status')).toHaveText('İşləyir')
 })

@@ -13,6 +13,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Modules\System\TurboRent.Modules.System\TurboRent.Modules.System.csproj" />
     <ProjectReference Include="..\BuildingBlocks\TurboRent.BuildingBlocks\TurboRent.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\Modules\Identity\TurboRent.Modules.Identity\TurboRent.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Modules\Catalog\TurboRent.Modules.Catalog\TurboRent.Modules.Catalog.csproj" />
   </ItemGroup>
 
 </Project>

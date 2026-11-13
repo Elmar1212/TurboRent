@@ -3,17 +3,23 @@
 API vahid ASP.NET Core prosesidir. System modulu ayrıca assembly daxilində qeydiyyatdan keçir.
 Feature qovluqları funksiyaların şaquli dilimləridir. Gələcək modullar başqa modulun
 DbContext-inə birbaşa müraciət etməyəcək; müqavilələr tələb yarandıqda müəyyənləşdiriləcək.
-BuildingBlocks hazırda qəsdən boşdur: əvvəlcədən ümumi repository və mediator abstraksiyaları yoxdur.
+BuildingBlocks hazırda qəsdən qısadır: əvvəlcədən ümumi repository və mediator abstraksiyaları yoxdur.
 
-SystemDbContext EF Core/Npgsql bağlantısını təmin edir. Biznes cədvəli və migration yoxdur.
+SystemDbContext EF Core/Npgsql health check-i təmin edir.
+Identity və Catalog öz DbContext/schema/migration history-sini saxlayır.
 Liveness prosesin cavab verdiyini, readiness isə həqiqi PostgreSQL bağlantısını yoxlayır.
 Readiness xətaları HTTP 503 qaytarır; connection string cavabda göstərilmir.
 
 Vite /api sorğularını lokal API-yə ötürür. Buna görə geniş CORS siyasəti lazım deyil.
-HTTP yalnız lokal development üçündür. Production TLS və authentication bu mərhələyə daxil deyil.
+HTTP yalnız lokal development üçündür. Identity əməliyyatları HTTPS tələb edir.
 OpenAPI yalnız Development mühitində açıqdır. Loglar JSON formatındadır.
-OpenTelemetry, JWT, Hangfire, MinIO və biznes modulları gələcək təsdiqlənən mərhələlərdədir.
+Vehicle image storage development üçün lokal, single-node Garage S3 API istifadə edir.
+Production storage və secret management ayrıca təsdiqlənəcək.
+OpenTelemetry, JWT, Hangfire və digər biznes modulları gələcək mərhələlərdədir.
 
 Pul vahidi AZN, biznes saat qurşağı Asia/Baku-dur. Gələcək tarixlər UTC saxlanacaq,
 istifadəçiyə göstərilərkən biznes saat qurşağına çevriləcək.
-Hazırkı interfeys Azərbaycan dilindədir; tam az/en lokallaşdırma hələ implementasiya edilməyib.
+Identity və public vehicle catalog interfeyslərində AZ/EN lokallaşdırma var.
+Catalog public endpoint-ləri yalnız `Approved` elanları göstərir. Owner/company
+istifadəçisi təsdiqlənmiş hesabla elan göndərə və 1–5 şəkil yükləyə bilər;
+yeni elanlar Admin yoxlamasınadək `Pending` qalır. Admin paneli hələ yoxdur.

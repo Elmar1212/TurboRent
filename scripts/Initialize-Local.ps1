@@ -7,4 +7,5 @@ $rng = [Security.Cryptography.RandomNumberGenerator]::Create()
 try { $rng.GetBytes($bytes) } finally { $rng.Dispose() }
 $password = [BitConverter]::ToString($bytes).Replace("-", "")
 [IO.File]::WriteAllText($envPath, "POSTGRES_PORT=55432`nPOSTGRES_PASSWORD=$password`n")
-Write-Output 'Local database credentials created in ignored .env.'
+& (Join-Path $PSScriptRoot 'Initialize-Garage.ps1')
+Write-Output 'Local PostgreSQL and Garage credentials created in ignored files.'

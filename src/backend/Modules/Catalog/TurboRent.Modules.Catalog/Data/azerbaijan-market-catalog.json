@@ -1,0 +1,5016 @@
+{
+    "source":  "Curated passenger-car and SUV model lines for the Azerbaijan market; not an exhaustive official registry",
+    "retrievedAtUtc":  "2026-10-27",
+    "scope":  "Passenger cars and SUVs; model-line names only, no trims or generations",
+    "makes":  [
+                  {
+                      "id":  1,
+                      "slug":  "toyota",
+                      "nameAz":  "Toyota",
+                      "nameEn":  "Toyota"
+                  },
+                  {
+                      "id":  2,
+                      "slug":  "hyundai",
+                      "nameAz":  "Hyundai",
+                      "nameEn":  "Hyundai"
+                  },
+                  {
+                      "id":  3,
+                      "slug":  "kia",
+                      "nameAz":  "Kia",
+                      "nameEn":  "Kia"
+                  },
+                  {
+                      "id":  4,
+                      "slug":  "mercedes-benz",
+                      "nameAz":  "Mercedes-Benz",
+                      "nameEn":  "Mercedes-Benz"
+                  },
+                  {
+                      "id":  5,
+                      "slug":  "bmw",
+                      "nameAz":  "BMW",
+                      "nameEn":  "BMW"
+                  },
+                  {
+                      "id":  6,
+                      "slug":  "nissan",
+                      "nameAz":  "Nissan",
+                      "nameEn":  "Nissan"
+                  },
+                  {
+                      "id":  7,
+                      "slug":  "audi",
+                      "nameAz":  "Audi",
+                      "nameEn":  "Audi"
+                  },
+                  {
+                      "id":  8,
+                      "slug":  "volkswagen",
+                      "nameAz":  "Volkswagen",
+                      "nameEn":  "Volkswagen"
+                  },
+                  {
+                      "id":  9,
+                      "slug":  "ford",
+                      "nameAz":  "Ford",
+                      "nameEn":  "Ford"
+                  },
+                  {
+                      "id":  10,
+                      "slug":  "chevrolet",
+                      "nameAz":  "Chevrolet",
+                      "nameEn":  "Chevrolet"
+                  },
+                  {
+                      "id":  11,
+                      "slug":  "honda",
+                      "nameAz":  "Honda",
+                      "nameEn":  "Honda"
+                  },
+                  {
+                      "id":  12,
+                      "slug":  "lexus",
+                      "nameAz":  "Lexus",
+                      "nameEn":  "Lexus"
+                  },
+                  {
+                      "id":  13,
+                      "slug":  "porsche",
+                      "nameAz":  "Porsche",
+                      "nameEn":  "Porsche"
+                  },
+                  {
+                      "id":  14,
+                      "slug":  "land-rover",
+                      "nameAz":  "Land Rover",
+                      "nameEn":  "Land Rover"
+                  },
+                  {
+                      "id":  15,
+                      "slug":  "mazda",
+                      "nameAz":  "Mazda",
+                      "nameEn":  "Mazda"
+                  },
+                  {
+                      "id":  16,
+                      "slug":  "mitsubishi",
+                      "nameAz":  "Mitsubishi",
+                      "nameEn":  "Mitsubishi"
+                  },
+                  {
+                      "id":  17,
+                      "slug":  "subaru",
+                      "nameAz":  "Subaru",
+                      "nameEn":  "Subaru"
+                  },
+                  {
+                      "id":  18,
+                      "slug":  "suzuki",
+                      "nameAz":  "Suzuki",
+                      "nameEn":  "Suzuki"
+                  },
+                  {
+                      "id":  19,
+                      "slug":  "infiniti",
+                      "nameAz":  "Infiniti",
+                      "nameEn":  "Infiniti"
+                  },
+                  {
+                      "id":  20,
+                      "slug":  "renault",
+                      "nameAz":  "Renault",
+                      "nameEn":  "Renault"
+                  },
+                  {
+                      "id":  21,
+                      "slug":  "peugeot",
+                      "nameAz":  "Peugeot",
+                      "nameEn":  "Peugeot"
+                  },
+                  {
+                      "id":  22,
+                      "slug":  "citroen",
+                      "nameAz":  "Citroen",
+                      "nameEn":  "Citroen"
+                  },
+                  {
+                      "id":  23,
+                      "slug":  "opel",
+                      "nameAz":  "Opel",
+                      "nameEn":  "Opel"
+                  },
+                  {
+                      "id":  24,
+                      "slug":  "skoda",
+                      "nameAz":  "Skoda",
+                      "nameEn":  "Skoda"
+                  },
+                  {
+                      "id":  25,
+                      "slug":  "volvo",
+                      "nameAz":  "Volvo",
+                      "nameEn":  "Volvo"
+                  },
+                  {
+                      "id":  26,
+                      "slug":  "jaguar",
+                      "nameAz":  "Jaguar",
+                      "nameEn":  "Jaguar"
+                  },
+                  {
+                      "id":  27,
+                      "slug":  "jeep",
+                      "nameAz":  "Jeep",
+                      "nameEn":  "Jeep"
+                  },
+                  {
+                      "id":  28,
+                      "slug":  "tesla",
+                      "nameAz":  "Tesla",
+                      "nameEn":  "Tesla"
+                  },
+                  {
+                      "id":  29,
+                      "slug":  "byd",
+                      "nameAz":  "BYD",
+                      "nameEn":  "BYD"
+                  },
+                  {
+                      "id":  30,
+                      "slug":  "chery",
+                      "nameAz":  "Chery",
+                      "nameEn":  "Chery"
+                  },
+                  {
+                      "id":  31,
+                      "slug":  "geely",
+                      "nameAz":  "Geely",
+                      "nameEn":  "Geely"
+                  },
+                  {
+                      "id":  32,
+                      "slug":  "haval",
+                      "nameAz":  "Haval",
+                      "nameEn":  "Haval"
+                  },
+                  {
+                      "id":  33,
+                      "slug":  "changan",
+                      "nameAz":  "Changan",
+                      "nameEn":  "Changan"
+                  },
+                  {
+                      "id":  34,
+                      "slug":  "gac",
+                      "nameAz":  "GAC",
+                      "nameEn":  "GAC"
+                  },
+                  {
+                      "id":  35,
+                      "slug":  "jac",
+                      "nameAz":  "JAC",
+                      "nameEn":  "JAC"
+                  },
+                  {
+                      "id":  36,
+                      "slug":  "jetour",
+                      "nameAz":  "Jetour",
+                      "nameEn":  "Jetour"
+                  },
+                  {
+                      "id":  37,
+                      "slug":  "exeed",
+                      "nameAz":  "Exeed",
+                      "nameEn":  "Exeed"
+                  },
+                  {
+                      "id":  38,
+                      "slug":  "hongqi",
+                      "nameAz":  "Hongqi",
+                      "nameEn":  "Hongqi"
+                  },
+                  {
+                      "id":  39,
+                      "slug":  "dongfeng",
+                      "nameAz":  "Dongfeng",
+                      "nameEn":  "Dongfeng"
+                  },
+                  {
+                      "id":  40,
+                      "slug":  "faw",
+                      "nameAz":  "FAW",
+                      "nameEn":  "FAW"
+                  },
+                  {
+                      "id":  41,
+                      "slug":  "li-auto",
+                      "nameAz":  "Li Auto",
+                      "nameEn":  "Li Auto"
+                  },
+                  {
+                      "id":  42,
+                      "slug":  "zeekr",
+                      "nameAz":  "Zeekr",
+                      "nameEn":  "Zeekr"
+                  },
+                  {
+                      "id":  43,
+                      "slug":  "xpeng",
+                      "nameAz":  "XPeng",
+                      "nameEn":  "XPeng"
+                  },
+                  {
+                      "id":  44,
+                      "slug":  "omoda",
+                      "nameAz":  "Omoda",
+                      "nameEn":  "Omoda"
+                  },
+                  {
+                      "id":  45,
+                      "slug":  "jaecoo",
+                      "nameAz":  "Jaecoo",
+                      "nameEn":  "Jaecoo"
+                  },
+                  {
+                      "id":  46,
+                      "slug":  "tank",
+                      "nameAz":  "Tank",
+                      "nameEn":  "Tank"
+                  },
+                  {
+                      "id":  47,
+                      "slug":  "mg",
+                      "nameAz":  "MG",
+                      "nameEn":  "MG"
+                  },
+                  {
+                      "id":  48,
+                      "slug":  "great-wall",
+                      "nameAz":  "Great Wall",
+                      "nameEn":  "Great Wall"
+                  },
+                  {
+                      "id":  49,
+                      "slug":  "lada",
+                      "nameAz":  "Lada",
+                      "nameEn":  "Lada"
+                  },
+                  {
+                      "id":  50,
+                      "slug":  "baic",
+                      "nameAz":  "BAIC",
+                      "nameEn":  "BAIC"
+                  },
+                  {
+                      "id":  51,
+                      "slug":  "leapmotor",
+                      "nameAz":  "Leapmotor",
+                      "nameEn":  "Leapmotor"
+                  },
+                  {
+                      "id":  52,
+                      "slug":  "nio",
+                      "nameAz":  "NIO",
+                      "nameEn":  "NIO"
+                  },
+                  {
+                      "id":  53,
+                      "slug":  "voyah",
+                      "nameAz":  "Voyah",
+                      "nameEn":  "Voyah"
+                  },
+                  {
+                      "id":  54,
+                      "slug":  "seres",
+                      "nameAz":  "Seres",
+                      "nameEn":  "Seres"
+                  },
+                  {
+                      "id":  55,
+                      "slug":  "dacia",
+                      "nameAz":  "Dacia",
+                      "nameEn":  "Dacia"
+                  },
+                  {
+                      "id":  56,
+                      "slug":  "fiat",
+                      "nameAz":  "Fiat",
+                      "nameEn":  "Fiat"
+                  },
+                  {
+                      "id":  57,
+                      "slug":  "alfa-romeo",
+                      "nameAz":  "Alfa Romeo",
+                      "nameEn":  "Alfa Romeo"
+                  },
+                  {
+                      "id":  58,
+                      "slug":  "bentley",
+                      "nameAz":  "Bentley",
+                      "nameEn":  "Bentley"
+                  },
+                  {
+                      "id":  59,
+                      "slug":  "rolls-royce",
+                      "nameAz":  "Rolls-Royce",
+                      "nameEn":  "Rolls-Royce"
+                  },
+                  {
+                      "id":  60,
+                      "slug":  "maserati",
+                      "nameAz":  "Maserati",
+                      "nameEn":  "Maserati"
+                  },
+                  {
+                      "id":  61,
+                      "slug":  "acura",
+                      "nameAz":  "Acura",
+                      "nameEn":  "Acura"
+                  },
+                  {
+                      "id":  62,
+                      "slug":  "lincoln",
+                      "nameAz":  "Lincoln",
+                      "nameEn":  "Lincoln"
+                  },
+                  {
+                      "id":  63,
+                      "slug":  "dodge",
+                      "nameAz":  "Dodge",
+                      "nameEn":  "Dodge"
+                  },
+                  {
+                      "id":  64,
+                      "slug":  "seat",
+                      "nameAz":  "SEAT",
+                      "nameEn":  "SEAT"
+                  },
+                  {
+                      "id":  65,
+                      "slug":  "smart",
+                      "nameAz":  "Smart",
+                      "nameEn":  "Smart"
+                  },
+                  {
+                      "id":  66,
+                      "slug":  "kgm",
+                      "nameAz":  "KGM",
+                      "nameEn":  "KGM"
+                  },
+                  {
+                      "id":  67,
+                      "slug":  "lynk-and-co",
+                      "nameAz":  "Lynk \u0026 Co",
+                      "nameEn":  "Lynk \u0026 Co"
+                  },
+                  {
+                      "id":  68,
+                      "slug":  "daewoo",
+                      "nameAz":  "Daewoo",
+                      "nameEn":  "Daewoo"
+                  },
+                  {
+                      "id":  69,
+                      "slug":  "daihatsu",
+                      "nameAz":  "Daihatsu",
+                      "nameEn":  "Daihatsu"
+                  },
+                  {
+                      "id":  70,
+                      "slug":  "buick",
+                      "nameAz":  "Buick",
+                      "nameEn":  "Buick"
+                  },
+                  {
+                      "id":  71,
+                      "slug":  "gmc",
+                      "nameAz":  "GMC",
+                      "nameEn":  "GMC"
+                  },
+                  {
+                      "id":  72,
+                      "slug":  "isuzu",
+                      "nameAz":  "Isuzu",
+                      "nameEn":  "Isuzu"
+                  },
+                  {
+                      "id":  73,
+                      "slug":  "chrysler",
+                      "nameAz":  "Chrysler",
+                      "nameEn":  "Chrysler"
+                  },
+                  {
+                      "id":  74,
+                      "slug":  "cupra",
+                      "nameAz":  "Cupra",
+                      "nameEn":  "Cupra"
+                  },
+                  {
+                      "id":  75,
+                      "slug":  "ram",
+                      "nameAz":  "Ram",
+                      "nameEn":  "Ram"
+                  }
+              ],
+    "models":  [
+                   {
+                       "id":  1,
+                       "makeSlug":  "toyota",
+                       "slug":  "camry",
+                       "nameAz":  "Camry",
+                       "nameEn":  "Camry"
+                   },
+                   {
+                       "id":  2,
+                       "makeSlug":  "toyota",
+                       "slug":  "corolla",
+                       "nameAz":  "Corolla",
+                       "nameEn":  "Corolla"
+                   },
+                   {
+                       "id":  3,
+                       "makeSlug":  "toyota",
+                       "slug":  "prius",
+                       "nameAz":  "Prius",
+                       "nameEn":  "Prius"
+                   },
+                   {
+                       "id":  4,
+                       "makeSlug":  "hyundai",
+                       "slug":  "elantra",
+                       "nameAz":  "Elantra",
+                       "nameEn":  "Elantra"
+                   },
+                   {
+                       "id":  5,
+                       "makeSlug":  "hyundai",
+                       "slug":  "sonata",
+                       "nameAz":  "Sonata",
+                       "nameEn":  "Sonata"
+                   },
+                   {
+                       "id":  6,
+                       "makeSlug":  "hyundai",
+                       "slug":  "tucson",
+                       "nameAz":  "Tucson",
+                       "nameEn":  "Tucson"
+                   },
+                   {
+                       "id":  7,
+                       "makeSlug":  "kia",
+                       "slug":  "sportage",
+                       "nameAz":  "Sportage",
+                       "nameEn":  "Sportage"
+                   },
+                   {
+                       "id":  8,
+                       "makeSlug":  "kia",
+                       "slug":  "optima",
+                       "nameAz":  "Optima",
+                       "nameEn":  "Optima"
+                   },
+                   {
+                       "id":  9,
+                       "makeSlug":  "kia",
+                       "slug":  "rio",
+                       "nameAz":  "Rio",
+                       "nameEn":  "Rio"
+                   },
+                   {
+                       "id":  10,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "e-class",
+                       "nameAz":  "E-Class",
+                       "nameEn":  "E-Class"
+                   },
+                   {
+                       "id":  11,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "c-class",
+                       "nameAz":  "C-Class",
+                       "nameEn":  "C-Class"
+                   },
+                   {
+                       "id":  12,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "glc",
+                       "nameAz":  "GLC",
+                       "nameEn":  "GLC"
+                   },
+                   {
+                       "id":  13,
+                       "makeSlug":  "bmw",
+                       "slug":  "3-series",
+                       "nameAz":  "3 Series",
+                       "nameEn":  "3 Series"
+                   },
+                   {
+                       "id":  14,
+                       "makeSlug":  "bmw",
+                       "slug":  "5-series",
+                       "nameAz":  "5 Series",
+                       "nameEn":  "5 Series"
+                   },
+                   {
+                       "id":  15,
+                       "makeSlug":  "bmw",
+                       "slug":  "x5",
+                       "nameAz":  "X5",
+                       "nameEn":  "X5"
+                   },
+                   {
+                       "id":  16,
+                       "makeSlug":  "nissan",
+                       "slug":  "altima",
+                       "nameAz":  "Altima",
+                       "nameEn":  "Altima"
+                   },
+                   {
+                       "id":  17,
+                       "makeSlug":  "nissan",
+                       "slug":  "x-trail",
+                       "nameAz":  "X-Trail",
+                       "nameEn":  "X-Trail"
+                   },
+                   {
+                       "id":  18,
+                       "makeSlug":  "nissan",
+                       "slug":  "qashqai",
+                       "nameAz":  "Qashqai",
+                       "nameEn":  "Qashqai"
+                   },
+                   {
+                       "id":  19,
+                       "makeSlug":  "toyota",
+                       "slug":  "land-cruiser",
+                       "nameAz":  "Land Cruiser",
+                       "nameEn":  "Land Cruiser"
+                   },
+                   {
+                       "id":  20,
+                       "makeSlug":  "toyota",
+                       "slug":  "land-cruiser-prado",
+                       "nameAz":  "Land Cruiser Prado",
+                       "nameEn":  "Land Cruiser Prado"
+                   },
+                   {
+                       "id":  21,
+                       "makeSlug":  "toyota",
+                       "slug":  "rav4",
+                       "nameAz":  "RAV4",
+                       "nameEn":  "RAV4"
+                   },
+                   {
+                       "id":  22,
+                       "makeSlug":  "toyota",
+                       "slug":  "highlander",
+                       "nameAz":  "Highlander",
+                       "nameEn":  "Highlander"
+                   },
+                   {
+                       "id":  23,
+                       "makeSlug":  "toyota",
+                       "slug":  "yaris",
+                       "nameAz":  "Yaris",
+                       "nameEn":  "Yaris"
+                   },
+                   {
+                       "id":  24,
+                       "makeSlug":  "toyota",
+                       "slug":  "yaris-cross",
+                       "nameAz":  "Yaris Cross",
+                       "nameEn":  "Yaris Cross"
+                   },
+                   {
+                       "id":  25,
+                       "makeSlug":  "toyota",
+                       "slug":  "hilux",
+                       "nameAz":  "Hilux",
+                       "nameEn":  "Hilux"
+                   },
+                   {
+                       "id":  26,
+                       "makeSlug":  "toyota",
+                       "slug":  "fortuner",
+                       "nameAz":  "Fortuner",
+                       "nameEn":  "Fortuner"
+                   },
+                   {
+                       "id":  27,
+                       "makeSlug":  "toyota",
+                       "slug":  "c-hr",
+                       "nameAz":  "C-HR",
+                       "nameEn":  "C-HR"
+                   },
+                   {
+                       "id":  28,
+                       "makeSlug":  "toyota",
+                       "slug":  "corolla-cross",
+                       "nameAz":  "Corolla Cross",
+                       "nameEn":  "Corolla Cross"
+                   },
+                   {
+                       "id":  29,
+                       "makeSlug":  "toyota",
+                       "slug":  "avalon",
+                       "nameAz":  "Avalon",
+                       "nameEn":  "Avalon"
+                   },
+                   {
+                       "id":  30,
+                       "makeSlug":  "toyota",
+                       "slug":  "venza",
+                       "nameAz":  "Venza",
+                       "nameEn":  "Venza"
+                   },
+                   {
+                       "id":  31,
+                       "makeSlug":  "toyota",
+                       "slug":  "harrier",
+                       "nameAz":  "Harrier",
+                       "nameEn":  "Harrier"
+                   },
+                   {
+                       "id":  32,
+                       "makeSlug":  "toyota",
+                       "slug":  "crown",
+                       "nameAz":  "Crown",
+                       "nameEn":  "Crown"
+                   },
+                   {
+                       "id":  33,
+                       "makeSlug":  "hyundai",
+                       "slug":  "santa-fe",
+                       "nameAz":  "Santa Fe",
+                       "nameEn":  "Santa Fe"
+                   },
+                   {
+                       "id":  34,
+                       "makeSlug":  "hyundai",
+                       "slug":  "palisade",
+                       "nameAz":  "Palisade",
+                       "nameEn":  "Palisade"
+                   },
+                   {
+                       "id":  35,
+                       "makeSlug":  "hyundai",
+                       "slug":  "accent",
+                       "nameAz":  "Accent",
+                       "nameEn":  "Accent"
+                   },
+                   {
+                       "id":  36,
+                       "makeSlug":  "hyundai",
+                       "slug":  "i10",
+                       "nameAz":  "i10",
+                       "nameEn":  "i10"
+                   },
+                   {
+                       "id":  37,
+                       "makeSlug":  "hyundai",
+                       "slug":  "i20",
+                       "nameAz":  "i20",
+                       "nameEn":  "i20"
+                   },
+                   {
+                       "id":  38,
+                       "makeSlug":  "hyundai",
+                       "slug":  "i30",
+                       "nameAz":  "i30",
+                       "nameEn":  "i30"
+                   },
+                   {
+                       "id":  39,
+                       "makeSlug":  "hyundai",
+                       "slug":  "kona",
+                       "nameAz":  "Kona",
+                       "nameEn":  "Kona"
+                   },
+                   {
+                       "id":  40,
+                       "makeSlug":  "hyundai",
+                       "slug":  "venue",
+                       "nameAz":  "Venue",
+                       "nameEn":  "Venue"
+                   },
+                   {
+                       "id":  41,
+                       "makeSlug":  "hyundai",
+                       "slug":  "creta",
+                       "nameAz":  "Creta",
+                       "nameEn":  "Creta"
+                   },
+                   {
+                       "id":  42,
+                       "makeSlug":  "hyundai",
+                       "slug":  "staria",
+                       "nameAz":  "Staria",
+                       "nameEn":  "Staria"
+                   },
+                   {
+                       "id":  43,
+                       "makeSlug":  "hyundai",
+                       "slug":  "ioniq-5",
+                       "nameAz":  "Ioniq 5",
+                       "nameEn":  "Ioniq 5"
+                   },
+                   {
+                       "id":  44,
+                       "makeSlug":  "hyundai",
+                       "slug":  "ioniq-6",
+                       "nameAz":  "Ioniq 6",
+                       "nameEn":  "Ioniq 6"
+                   },
+                   {
+                       "id":  45,
+                       "makeSlug":  "hyundai",
+                       "slug":  "bayon",
+                       "nameAz":  "Bayon",
+                       "nameEn":  "Bayon"
+                   },
+                   {
+                       "id":  46,
+                       "makeSlug":  "hyundai",
+                       "slug":  "mufasa",
+                       "nameAz":  "Mufasa",
+                       "nameEn":  "Mufasa"
+                   },
+                   {
+                       "id":  47,
+                       "makeSlug":  "kia",
+                       "slug":  "sorento",
+                       "nameAz":  "Sorento",
+                       "nameEn":  "Sorento"
+                   },
+                   {
+                       "id":  48,
+                       "makeSlug":  "kia",
+                       "slug":  "seltos",
+                       "nameAz":  "Seltos",
+                       "nameEn":  "Seltos"
+                   },
+                   {
+                       "id":  49,
+                       "makeSlug":  "kia",
+                       "slug":  "picanto",
+                       "nameAz":  "Picanto",
+                       "nameEn":  "Picanto"
+                   },
+                   {
+                       "id":  50,
+                       "makeSlug":  "kia",
+                       "slug":  "cerato",
+                       "nameAz":  "Cerato",
+                       "nameEn":  "Cerato"
+                   },
+                   {
+                       "id":  51,
+                       "makeSlug":  "kia",
+                       "slug":  "k5",
+                       "nameAz":  "K5",
+                       "nameEn":  "K5"
+                   },
+                   {
+                       "id":  52,
+                       "makeSlug":  "kia",
+                       "slug":  "k8",
+                       "nameAz":  "K8",
+                       "nameEn":  "K8"
+                   },
+                   {
+                       "id":  53,
+                       "makeSlug":  "kia",
+                       "slug":  "k9",
+                       "nameAz":  "K9",
+                       "nameEn":  "K9"
+                   },
+                   {
+                       "id":  54,
+                       "makeSlug":  "kia",
+                       "slug":  "carnival",
+                       "nameAz":  "Carnival",
+                       "nameEn":  "Carnival"
+                   },
+                   {
+                       "id":  55,
+                       "makeSlug":  "kia",
+                       "slug":  "telluride",
+                       "nameAz":  "Telluride",
+                       "nameEn":  "Telluride"
+                   },
+                   {
+                       "id":  56,
+                       "makeSlug":  "kia",
+                       "slug":  "stinger",
+                       "nameAz":  "Stinger",
+                       "nameEn":  "Stinger"
+                   },
+                   {
+                       "id":  57,
+                       "makeSlug":  "kia",
+                       "slug":  "niro",
+                       "nameAz":  "Niro",
+                       "nameEn":  "Niro"
+                   },
+                   {
+                       "id":  58,
+                       "makeSlug":  "kia",
+                       "slug":  "ev3",
+                       "nameAz":  "EV3",
+                       "nameEn":  "EV3"
+                   },
+                   {
+                       "id":  59,
+                       "makeSlug":  "kia",
+                       "slug":  "ev5",
+                       "nameAz":  "EV5",
+                       "nameEn":  "EV5"
+                   },
+                   {
+                       "id":  60,
+                       "makeSlug":  "kia",
+                       "slug":  "ev6",
+                       "nameAz":  "EV6",
+                       "nameEn":  "EV6"
+                   },
+                   {
+                       "id":  61,
+                       "makeSlug":  "kia",
+                       "slug":  "ev9",
+                       "nameAz":  "EV9",
+                       "nameEn":  "EV9"
+                   },
+                   {
+                       "id":  62,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "a-class",
+                       "nameAz":  "A-Class",
+                       "nameEn":  "A-Class"
+                   },
+                   {
+                       "id":  63,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "s-class",
+                       "nameAz":  "S-Class",
+                       "nameEn":  "S-Class"
+                   },
+                   {
+                       "id":  64,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "cla",
+                       "nameAz":  "CLA",
+                       "nameEn":  "CLA"
+                   },
+                   {
+                       "id":  65,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "cls",
+                       "nameAz":  "CLS",
+                       "nameEn":  "CLS"
+                   },
+                   {
+                       "id":  66,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "gla",
+                       "nameAz":  "GLA",
+                       "nameEn":  "GLA"
+                   },
+                   {
+                       "id":  67,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "glb",
+                       "nameAz":  "GLB",
+                       "nameEn":  "GLB"
+                   },
+                   {
+                       "id":  68,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "gle",
+                       "nameAz":  "GLE",
+                       "nameEn":  "GLE"
+                   },
+                   {
+                       "id":  69,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "gls",
+                       "nameAz":  "GLS",
+                       "nameEn":  "GLS"
+                   },
+                   {
+                       "id":  70,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "g-class",
+                       "nameAz":  "G-Class",
+                       "nameEn":  "G-Class"
+                   },
+                   {
+                       "id":  71,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "v-class",
+                       "nameAz":  "V-Class",
+                       "nameEn":  "V-Class"
+                   },
+                   {
+                       "id":  72,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "eqa",
+                       "nameAz":  "EQA",
+                       "nameEn":  "EQA"
+                   },
+                   {
+                       "id":  73,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "eqb",
+                       "nameAz":  "EQB",
+                       "nameEn":  "EQB"
+                   },
+                   {
+                       "id":  74,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "eqe",
+                       "nameAz":  "EQE",
+                       "nameEn":  "EQE"
+                   },
+                   {
+                       "id":  75,
+                       "makeSlug":  "mercedes-benz",
+                       "slug":  "eqs",
+                       "nameAz":  "EQS",
+                       "nameEn":  "EQS"
+                   },
+                   {
+                       "id":  76,
+                       "makeSlug":  "bmw",
+                       "slug":  "1-series",
+                       "nameAz":  "1 Series",
+                       "nameEn":  "1 Series"
+                   },
+                   {
+                       "id":  77,
+                       "makeSlug":  "bmw",
+                       "slug":  "2-series",
+                       "nameAz":  "2 Series",
+                       "nameEn":  "2 Series"
+                   },
+                   {
+                       "id":  78,
+                       "makeSlug":  "bmw",
+                       "slug":  "4-series",
+                       "nameAz":  "4 Series",
+                       "nameEn":  "4 Series"
+                   },
+                   {
+                       "id":  79,
+                       "makeSlug":  "bmw",
+                       "slug":  "6-series",
+                       "nameAz":  "6 Series",
+                       "nameEn":  "6 Series"
+                   },
+                   {
+                       "id":  80,
+                       "makeSlug":  "bmw",
+                       "slug":  "7-series",
+                       "nameAz":  "7 Series",
+                       "nameEn":  "7 Series"
+                   },
+                   {
+                       "id":  81,
+                       "makeSlug":  "bmw",
+                       "slug":  "8-series",
+                       "nameAz":  "8 Series",
+                       "nameEn":  "8 Series"
+                   },
+                   {
+                       "id":  82,
+                       "makeSlug":  "bmw",
+                       "slug":  "x1",
+                       "nameAz":  "X1",
+                       "nameEn":  "X1"
+                   },
+                   {
+                       "id":  83,
+                       "makeSlug":  "bmw",
+                       "slug":  "x2",
+                       "nameAz":  "X2",
+                       "nameEn":  "X2"
+                   },
+                   {
+                       "id":  84,
+                       "makeSlug":  "bmw",
+                       "slug":  "x3",
+                       "nameAz":  "X3",
+                       "nameEn":  "X3"
+                   },
+                   {
+                       "id":  85,
+                       "makeSlug":  "bmw",
+                       "slug":  "x4",
+                       "nameAz":  "X4",
+                       "nameEn":  "X4"
+                   },
+                   {
+                       "id":  86,
+                       "makeSlug":  "bmw",
+                       "slug":  "x6",
+                       "nameAz":  "X6",
+                       "nameEn":  "X6"
+                   },
+                   {
+                       "id":  87,
+                       "makeSlug":  "bmw",
+                       "slug":  "x7",
+                       "nameAz":  "X7",
+                       "nameEn":  "X7"
+                   },
+                   {
+                       "id":  88,
+                       "makeSlug":  "bmw",
+                       "slug":  "xm",
+                       "nameAz":  "XM",
+                       "nameEn":  "XM"
+                   },
+                   {
+                       "id":  89,
+                       "makeSlug":  "bmw",
+                       "slug":  "i3",
+                       "nameAz":  "i3",
+                       "nameEn":  "i3"
+                   },
+                   {
+                       "id":  90,
+                       "makeSlug":  "bmw",
+                       "slug":  "i4",
+                       "nameAz":  "i4",
+                       "nameEn":  "i4"
+                   },
+                   {
+                       "id":  91,
+                       "makeSlug":  "bmw",
+                       "slug":  "i5",
+                       "nameAz":  "i5",
+                       "nameEn":  "i5"
+                   },
+                   {
+                       "id":  92,
+                       "makeSlug":  "bmw",
+                       "slug":  "i7",
+                       "nameAz":  "i7",
+                       "nameEn":  "i7"
+                   },
+                   {
+                       "id":  93,
+                       "makeSlug":  "bmw",
+                       "slug":  "ix",
+                       "nameAz":  "iX",
+                       "nameEn":  "iX"
+                   },
+                   {
+                       "id":  94,
+                       "makeSlug":  "nissan",
+                       "slug":  "maxima",
+                       "nameAz":  "Maxima",
+                       "nameEn":  "Maxima"
+                   },
+                   {
+                       "id":  95,
+                       "makeSlug":  "nissan",
+                       "slug":  "sentra",
+                       "nameAz":  "Sentra",
+                       "nameEn":  "Sentra"
+                   },
+                   {
+                       "id":  96,
+                       "makeSlug":  "nissan",
+                       "slug":  "sunny",
+                       "nameAz":  "Sunny",
+                       "nameEn":  "Sunny"
+                   },
+                   {
+                       "id":  97,
+                       "makeSlug":  "nissan",
+                       "slug":  "micra",
+                       "nameAz":  "Micra",
+                       "nameEn":  "Micra"
+                   },
+                   {
+                       "id":  98,
+                       "makeSlug":  "nissan",
+                       "slug":  "note",
+                       "nameAz":  "Note",
+                       "nameEn":  "Note"
+                   },
+                   {
+                       "id":  99,
+                       "makeSlug":  "nissan",
+                       "slug":  "juke",
+                       "nameAz":  "Juke",
+                       "nameEn":  "Juke"
+                   },
+                   {
+                       "id":  100,
+                       "makeSlug":  "nissan",
+                       "slug":  "pathfinder",
+                       "nameAz":  "Pathfinder",
+                       "nameEn":  "Pathfinder"
+                   },
+                   {
+                       "id":  101,
+                       "makeSlug":  "nissan",
+                       "slug":  "patrol",
+                       "nameAz":  "Patrol",
+                       "nameEn":  "Patrol"
+                   },
+                   {
+                       "id":  102,
+                       "makeSlug":  "nissan",
+                       "slug":  "murano",
+                       "nameAz":  "Murano",
+                       "nameEn":  "Murano"
+                   },
+                   {
+                       "id":  103,
+                       "makeSlug":  "nissan",
+                       "slug":  "kicks",
+                       "nameAz":  "Kicks",
+                       "nameEn":  "Kicks"
+                   },
+                   {
+                       "id":  104,
+                       "makeSlug":  "nissan",
+                       "slug":  "leaf",
+                       "nameAz":  "Leaf",
+                       "nameEn":  "Leaf"
+                   },
+                   {
+                       "id":  105,
+                       "makeSlug":  "nissan",
+                       "slug":  "teana",
+                       "nameAz":  "Teana",
+                       "nameEn":  "Teana"
+                   },
+                   {
+                       "id":  106,
+                       "makeSlug":  "nissan",
+                       "slug":  "terrano",
+                       "nameAz":  "Terrano",
+                       "nameEn":  "Terrano"
+                   },
+                   {
+                       "id":  107,
+                       "makeSlug":  "audi",
+                       "slug":  "a1",
+                       "nameAz":  "A1",
+                       "nameEn":  "A1"
+                   },
+                   {
+                       "id":  108,
+                       "makeSlug":  "audi",
+                       "slug":  "a3",
+                       "nameAz":  "A3",
+                       "nameEn":  "A3"
+                   },
+                   {
+                       "id":  109,
+                       "makeSlug":  "audi",
+                       "slug":  "a4",
+                       "nameAz":  "A4",
+                       "nameEn":  "A4"
+                   },
+                   {
+                       "id":  110,
+                       "makeSlug":  "audi",
+                       "slug":  "a5",
+                       "nameAz":  "A5",
+                       "nameEn":  "A5"
+                   },
+                   {
+                       "id":  111,
+                       "makeSlug":  "audi",
+                       "slug":  "a6",
+                       "nameAz":  "A6",
+                       "nameEn":  "A6"
+                   },
+                   {
+                       "id":  112,
+                       "makeSlug":  "audi",
+                       "slug":  "a7",
+                       "nameAz":  "A7",
+                       "nameEn":  "A7"
+                   },
+                   {
+                       "id":  113,
+                       "makeSlug":  "audi",
+                       "slug":  "a8",
+                       "nameAz":  "A8",
+                       "nameEn":  "A8"
+                   },
+                   {
+                       "id":  114,
+                       "makeSlug":  "audi",
+                       "slug":  "q2",
+                       "nameAz":  "Q2",
+                       "nameEn":  "Q2"
+                   },
+                   {
+                       "id":  115,
+                       "makeSlug":  "audi",
+                       "slug":  "q3",
+                       "nameAz":  "Q3",
+                       "nameEn":  "Q3"
+                   },
+                   {
+                       "id":  116,
+                       "makeSlug":  "audi",
+                       "slug":  "q5",
+                       "nameAz":  "Q5",
+                       "nameEn":  "Q5"
+                   },
+                   {
+                       "id":  117,
+                       "makeSlug":  "audi",
+                       "slug":  "q7",
+                       "nameAz":  "Q7",
+                       "nameEn":  "Q7"
+                   },
+                   {
+                       "id":  118,
+                       "makeSlug":  "audi",
+                       "slug":  "q8",
+                       "nameAz":  "Q8",
+                       "nameEn":  "Q8"
+                   },
+                   {
+                       "id":  119,
+                       "makeSlug":  "audi",
+                       "slug":  "tt",
+                       "nameAz":  "TT",
+                       "nameEn":  "TT"
+                   },
+                   {
+                       "id":  120,
+                       "makeSlug":  "audi",
+                       "slug":  "e-tron",
+                       "nameAz":  "e-tron",
+                       "nameEn":  "e-tron"
+                   },
+                   {
+                       "id":  121,
+                       "makeSlug":  "audi",
+                       "slug":  "q4-e-tron",
+                       "nameAz":  "Q4 e-tron",
+                       "nameEn":  "Q4 e-tron"
+                   },
+                   {
+                       "id":  122,
+                       "makeSlug":  "audi",
+                       "slug":  "q8-e-tron",
+                       "nameAz":  "Q8 e-tron",
+                       "nameEn":  "Q8 e-tron"
+                   },
+                   {
+                       "id":  123,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "polo",
+                       "nameAz":  "Polo",
+                       "nameEn":  "Polo"
+                   },
+                   {
+                       "id":  124,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "golf",
+                       "nameAz":  "Golf",
+                       "nameEn":  "Golf"
+                   },
+                   {
+                       "id":  125,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "jetta",
+                       "nameAz":  "Jetta",
+                       "nameEn":  "Jetta"
+                   },
+                   {
+                       "id":  126,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "passat",
+                       "nameAz":  "Passat",
+                       "nameEn":  "Passat"
+                   },
+                   {
+                       "id":  127,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "arteon",
+                       "nameAz":  "Arteon",
+                       "nameEn":  "Arteon"
+                   },
+                   {
+                       "id":  128,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "tiguan",
+                       "nameAz":  "Tiguan",
+                       "nameEn":  "Tiguan"
+                   },
+                   {
+                       "id":  129,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "touareg",
+                       "nameAz":  "Touareg",
+                       "nameEn":  "Touareg"
+                   },
+                   {
+                       "id":  130,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "t-roc",
+                       "nameAz":  "T-Roc",
+                       "nameEn":  "T-Roc"
+                   },
+                   {
+                       "id":  131,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "t-cross",
+                       "nameAz":  "T-Cross",
+                       "nameEn":  "T-Cross"
+                   },
+                   {
+                       "id":  132,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "taos",
+                       "nameAz":  "Taos",
+                       "nameEn":  "Taos"
+                   },
+                   {
+                       "id":  133,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "teramont",
+                       "nameAz":  "Teramont",
+                       "nameEn":  "Teramont"
+                   },
+                   {
+                       "id":  134,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "id-3",
+                       "nameAz":  "ID.3",
+                       "nameEn":  "ID.3"
+                   },
+                   {
+                       "id":  135,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "id-4",
+                       "nameAz":  "ID.4",
+                       "nameEn":  "ID.4"
+                   },
+                   {
+                       "id":  136,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "id-6",
+                       "nameAz":  "ID.6",
+                       "nameEn":  "ID.6"
+                   },
+                   {
+                       "id":  137,
+                       "makeSlug":  "volkswagen",
+                       "slug":  "id-7",
+                       "nameAz":  "ID.7",
+                       "nameEn":  "ID.7"
+                   },
+                   {
+                       "id":  138,
+                       "makeSlug":  "ford",
+                       "slug":  "fiesta",
+                       "nameAz":  "Fiesta",
+                       "nameEn":  "Fiesta"
+                   },
+                   {
+                       "id":  139,
+                       "makeSlug":  "ford",
+                       "slug":  "focus",
+                       "nameAz":  "Focus",
+                       "nameEn":  "Focus"
+                   },
+                   {
+                       "id":  140,
+                       "makeSlug":  "ford",
+                       "slug":  "mondeo",
+                       "nameAz":  "Mondeo",
+                       "nameEn":  "Mondeo"
+                   },
+                   {
+                       "id":  141,
+                       "makeSlug":  "ford",
+                       "slug":  "fusion",
+                       "nameAz":  "Fusion",
+                       "nameEn":  "Fusion"
+                   },
+                   {
+                       "id":  142,
+                       "makeSlug":  "ford",
+                       "slug":  "taurus",
+                       "nameAz":  "Taurus",
+                       "nameEn":  "Taurus"
+                   },
+                   {
+                       "id":  143,
+                       "makeSlug":  "ford",
+                       "slug":  "mustang",
+                       "nameAz":  "Mustang",
+                       "nameEn":  "Mustang"
+                   },
+                   {
+                       "id":  144,
+                       "makeSlug":  "ford",
+                       "slug":  "kuga",
+                       "nameAz":  "Kuga",
+                       "nameEn":  "Kuga"
+                   },
+                   {
+                       "id":  145,
+                       "makeSlug":  "ford",
+                       "slug":  "escape",
+                       "nameAz":  "Escape",
+                       "nameEn":  "Escape"
+                   },
+                   {
+                       "id":  146,
+                       "makeSlug":  "ford",
+                       "slug":  "edge",
+                       "nameAz":  "Edge",
+                       "nameEn":  "Edge"
+                   },
+                   {
+                       "id":  147,
+                       "makeSlug":  "ford",
+                       "slug":  "explorer",
+                       "nameAz":  "Explorer",
+                       "nameEn":  "Explorer"
+                   },
+                   {
+                       "id":  148,
+                       "makeSlug":  "ford",
+                       "slug":  "bronco",
+                       "nameAz":  "Bronco",
+                       "nameEn":  "Bronco"
+                   },
+                   {
+                       "id":  149,
+                       "makeSlug":  "ford",
+                       "slug":  "ecosport",
+                       "nameAz":  "EcoSport",
+                       "nameEn":  "EcoSport"
+                   },
+                   {
+                       "id":  150,
+                       "makeSlug":  "ford",
+                       "slug":  "territory",
+                       "nameAz":  "Territory",
+                       "nameEn":  "Territory"
+                   },
+                   {
+                       "id":  151,
+                       "makeSlug":  "ford",
+                       "slug":  "everest",
+                       "nameAz":  "Everest",
+                       "nameEn":  "Everest"
+                   },
+                   {
+                       "id":  152,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "spark",
+                       "nameAz":  "Spark",
+                       "nameEn":  "Spark"
+                   },
+                   {
+                       "id":  153,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "aveo",
+                       "nameAz":  "Aveo",
+                       "nameEn":  "Aveo"
+                   },
+                   {
+                       "id":  154,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "cobalt",
+                       "nameAz":  "Cobalt",
+                       "nameEn":  "Cobalt"
+                   },
+                   {
+                       "id":  155,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "cruze",
+                       "nameAz":  "Cruze",
+                       "nameEn":  "Cruze"
+                   },
+                   {
+                       "id":  156,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "malibu",
+                       "nameAz":  "Malibu",
+                       "nameEn":  "Malibu"
+                   },
+                   {
+                       "id":  157,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "impala",
+                       "nameAz":  "Impala",
+                       "nameEn":  "Impala"
+                   },
+                   {
+                       "id":  158,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "camaro",
+                       "nameAz":  "Camaro",
+                       "nameEn":  "Camaro"
+                   },
+                   {
+                       "id":  159,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "trax",
+                       "nameAz":  "Trax",
+                       "nameEn":  "Trax"
+                   },
+                   {
+                       "id":  160,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "tracker",
+                       "nameAz":  "Tracker",
+                       "nameEn":  "Tracker"
+                   },
+                   {
+                       "id":  161,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "equinox",
+                       "nameAz":  "Equinox",
+                       "nameEn":  "Equinox"
+                   },
+                   {
+                       "id":  162,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "blazer",
+                       "nameAz":  "Blazer",
+                       "nameEn":  "Blazer"
+                   },
+                   {
+                       "id":  163,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "traverse",
+                       "nameAz":  "Traverse",
+                       "nameEn":  "Traverse"
+                   },
+                   {
+                       "id":  164,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "tahoe",
+                       "nameAz":  "Tahoe",
+                       "nameEn":  "Tahoe"
+                   },
+                   {
+                       "id":  165,
+                       "makeSlug":  "chevrolet",
+                       "slug":  "captiva",
+                       "nameAz":  "Captiva",
+                       "nameEn":  "Captiva"
+                   },
+                   {
+                       "id":  166,
+                       "makeSlug":  "honda",
+                       "slug":  "civic",
+                       "nameAz":  "Civic",
+                       "nameEn":  "Civic"
+                   },
+                   {
+                       "id":  167,
+                       "makeSlug":  "honda",
+                       "slug":  "accord",
+                       "nameAz":  "Accord",
+                       "nameEn":  "Accord"
+                   },
+                   {
+                       "id":  168,
+                       "makeSlug":  "honda",
+                       "slug":  "cr-v",
+                       "nameAz":  "CR-V",
+                       "nameEn":  "CR-V"
+                   },
+                   {
+                       "id":  169,
+                       "makeSlug":  "honda",
+                       "slug":  "hr-v",
+                       "nameAz":  "HR-V",
+                       "nameEn":  "HR-V"
+                   },
+                   {
+                       "id":  170,
+                       "makeSlug":  "honda",
+                       "slug":  "pilot",
+                       "nameAz":  "Pilot",
+                       "nameEn":  "Pilot"
+                   },
+                   {
+                       "id":  171,
+                       "makeSlug":  "honda",
+                       "slug":  "city",
+                       "nameAz":  "City",
+                       "nameEn":  "City"
+                   },
+                   {
+                       "id":  172,
+                       "makeSlug":  "honda",
+                       "slug":  "fit",
+                       "nameAz":  "Fit",
+                       "nameEn":  "Fit"
+                   },
+                   {
+                       "id":  173,
+                       "makeSlug":  "honda",
+                       "slug":  "jazz",
+                       "nameAz":  "Jazz",
+                       "nameEn":  "Jazz"
+                   },
+                   {
+                       "id":  174,
+                       "makeSlug":  "honda",
+                       "slug":  "odyssey",
+                       "nameAz":  "Odyssey",
+                       "nameEn":  "Odyssey"
+                   },
+                   {
+                       "id":  175,
+                       "makeSlug":  "honda",
+                       "slug":  "passport",
+                       "nameAz":  "Passport",
+                       "nameEn":  "Passport"
+                   },
+                   {
+                       "id":  176,
+                       "makeSlug":  "honda",
+                       "slug":  "zr-v",
+                       "nameAz":  "ZR-V",
+                       "nameEn":  "ZR-V"
+                   },
+                   {
+                       "id":  177,
+                       "makeSlug":  "honda",
+                       "slug":  "e-ny1",
+                       "nameAz":  "e:Ny1",
+                       "nameEn":  "e:Ny1"
+                   },
+                   {
+                       "id":  178,
+                       "makeSlug":  "lexus",
+                       "slug":  "is",
+                       "nameAz":  "IS",
+                       "nameEn":  "IS"
+                   },
+                   {
+                       "id":  179,
+                       "makeSlug":  "lexus",
+                       "slug":  "es",
+                       "nameAz":  "ES",
+                       "nameEn":  "ES"
+                   },
+                   {
+                       "id":  180,
+                       "makeSlug":  "lexus",
+                       "slug":  "gs",
+                       "nameAz":  "GS",
+                       "nameEn":  "GS"
+                   },
+                   {
+                       "id":  181,
+                       "makeSlug":  "lexus",
+                       "slug":  "ls",
+                       "nameAz":  "LS",
+                       "nameEn":  "LS"
+                   },
+                   {
+                       "id":  182,
+                       "makeSlug":  "lexus",
+                       "slug":  "ux",
+                       "nameAz":  "UX",
+                       "nameEn":  "UX"
+                   },
+                   {
+                       "id":  183,
+                       "makeSlug":  "lexus",
+                       "slug":  "nx",
+                       "nameAz":  "NX",
+                       "nameEn":  "NX"
+                   },
+                   {
+                       "id":  184,
+                       "makeSlug":  "lexus",
+                       "slug":  "rx",
+                       "nameAz":  "RX",
+                       "nameEn":  "RX"
+                   },
+                   {
+                       "id":  185,
+                       "makeSlug":  "lexus",
+                       "slug":  "gx",
+                       "nameAz":  "GX",
+                       "nameEn":  "GX"
+                   },
+                   {
+                       "id":  186,
+                       "makeSlug":  "lexus",
+                       "slug":  "lx",
+                       "nameAz":  "LX",
+                       "nameEn":  "LX"
+                   },
+                   {
+                       "id":  187,
+                       "makeSlug":  "lexus",
+                       "slug":  "lc",
+                       "nameAz":  "LC",
+                       "nameEn":  "LC"
+                   },
+                   {
+                       "id":  188,
+                       "makeSlug":  "lexus",
+                       "slug":  "lm",
+                       "nameAz":  "LM",
+                       "nameEn":  "LM"
+                   },
+                   {
+                       "id":  189,
+                       "makeSlug":  "lexus",
+                       "slug":  "rz",
+                       "nameAz":  "RZ",
+                       "nameEn":  "RZ"
+                   },
+                   {
+                       "id":  190,
+                       "makeSlug":  "lexus",
+                       "slug":  "lbx",
+                       "nameAz":  "LBX",
+                       "nameEn":  "LBX"
+                   },
+                   {
+                       "id":  191,
+                       "makeSlug":  "porsche",
+                       "slug":  "718-cayman",
+                       "nameAz":  "718 Cayman",
+                       "nameEn":  "718 Cayman"
+                   },
+                   {
+                       "id":  192,
+                       "makeSlug":  "porsche",
+                       "slug":  "718-boxster",
+                       "nameAz":  "718 Boxster",
+                       "nameEn":  "718 Boxster"
+                   },
+                   {
+                       "id":  193,
+                       "makeSlug":  "porsche",
+                       "slug":  "911",
+                       "nameAz":  "911",
+                       "nameEn":  "911"
+                   },
+                   {
+                       "id":  194,
+                       "makeSlug":  "porsche",
+                       "slug":  "panamera",
+                       "nameAz":  "Panamera",
+                       "nameEn":  "Panamera"
+                   },
+                   {
+                       "id":  195,
+                       "makeSlug":  "porsche",
+                       "slug":  "macan",
+                       "nameAz":  "Macan",
+                       "nameEn":  "Macan"
+                   },
+                   {
+                       "id":  196,
+                       "makeSlug":  "porsche",
+                       "slug":  "cayenne",
+                       "nameAz":  "Cayenne",
+                       "nameEn":  "Cayenne"
+                   },
+                   {
+                       "id":  197,
+                       "makeSlug":  "porsche",
+                       "slug":  "taycan",
+                       "nameAz":  "Taycan",
+                       "nameEn":  "Taycan"
+                   },
+                   {
+                       "id":  198,
+                       "makeSlug":  "land-rover",
+                       "slug":  "defender",
+                       "nameAz":  "Defender",
+                       "nameEn":  "Defender"
+                   },
+                   {
+                       "id":  199,
+                       "makeSlug":  "land-rover",
+                       "slug":  "discovery",
+                       "nameAz":  "Discovery",
+                       "nameEn":  "Discovery"
+                   },
+                   {
+                       "id":  200,
+                       "makeSlug":  "land-rover",
+                       "slug":  "discovery-sport",
+                       "nameAz":  "Discovery Sport",
+                       "nameEn":  "Discovery Sport"
+                   },
+                   {
+                       "id":  201,
+                       "makeSlug":  "land-rover",
+                       "slug":  "range-rover",
+                       "nameAz":  "Range Rover",
+                       "nameEn":  "Range Rover"
+                   },
+                   {
+                       "id":  202,
+                       "makeSlug":  "land-rover",
+                       "slug":  "range-rover-sport",
+                       "nameAz":  "Range Rover Sport",
+                       "nameEn":  "Range Rover Sport"
+                   },
+                   {
+                       "id":  203,
+                       "makeSlug":  "land-rover",
+                       "slug":  "range-rover-velar",
+                       "nameAz":  "Range Rover Velar",
+                       "nameEn":  "Range Rover Velar"
+                   },
+                   {
+                       "id":  204,
+                       "makeSlug":  "land-rover",
+                       "slug":  "range-rover-evoque",
+                       "nameAz":  "Range Rover Evoque",
+                       "nameEn":  "Range Rover Evoque"
+                   },
+                   {
+                       "id":  205,
+                       "makeSlug":  "mazda",
+                       "slug":  "mazda2",
+                       "nameAz":  "Mazda2",
+                       "nameEn":  "Mazda2"
+                   },
+                   {
+                       "id":  206,
+                       "makeSlug":  "mazda",
+                       "slug":  "mazda3",
+                       "nameAz":  "Mazda3",
+                       "nameEn":  "Mazda3"
+                   },
+                   {
+                       "id":  207,
+                       "makeSlug":  "mazda",
+                       "slug":  "mazda6",
+                       "nameAz":  "Mazda6",
+                       "nameEn":  "Mazda6"
+                   },
+                   {
+                       "id":  208,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-3",
+                       "nameAz":  "CX-3",
+                       "nameEn":  "CX-3"
+                   },
+                   {
+                       "id":  209,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-30",
+                       "nameAz":  "CX-30",
+                       "nameEn":  "CX-30"
+                   },
+                   {
+                       "id":  210,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-5",
+                       "nameAz":  "CX-5",
+                       "nameEn":  "CX-5"
+                   },
+                   {
+                       "id":  211,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-50",
+                       "nameAz":  "CX-50",
+                       "nameEn":  "CX-50"
+                   },
+                   {
+                       "id":  212,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-60",
+                       "nameAz":  "CX-60",
+                       "nameEn":  "CX-60"
+                   },
+                   {
+                       "id":  213,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-70",
+                       "nameAz":  "CX-70",
+                       "nameEn":  "CX-70"
+                   },
+                   {
+                       "id":  214,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-9",
+                       "nameAz":  "CX-9",
+                       "nameEn":  "CX-9"
+                   },
+                   {
+                       "id":  215,
+                       "makeSlug":  "mazda",
+                       "slug":  "cx-90",
+                       "nameAz":  "CX-90",
+                       "nameEn":  "CX-90"
+                   },
+                   {
+                       "id":  216,
+                       "makeSlug":  "mazda",
+                       "slug":  "mx-5",
+                       "nameAz":  "MX-5",
+                       "nameEn":  "MX-5"
+                   },
+                   {
+                       "id":  217,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "attrage",
+                       "nameAz":  "Attrage",
+                       "nameEn":  "Attrage"
+                   },
+                   {
+                       "id":  218,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "mirage",
+                       "nameAz":  "Mirage",
+                       "nameEn":  "Mirage"
+                   },
+                   {
+                       "id":  219,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "lancer",
+                       "nameAz":  "Lancer",
+                       "nameEn":  "Lancer"
+                   },
+                   {
+                       "id":  220,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "asx",
+                       "nameAz":  "ASX",
+                       "nameEn":  "ASX"
+                   },
+                   {
+                       "id":  221,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "eclipse-cross",
+                       "nameAz":  "Eclipse Cross",
+                       "nameEn":  "Eclipse Cross"
+                   },
+                   {
+                       "id":  222,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "outlander",
+                       "nameAz":  "Outlander",
+                       "nameEn":  "Outlander"
+                   },
+                   {
+                       "id":  223,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "pajero",
+                       "nameAz":  "Pajero",
+                       "nameEn":  "Pajero"
+                   },
+                   {
+                       "id":  224,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "pajero-sport",
+                       "nameAz":  "Pajero Sport",
+                       "nameEn":  "Pajero Sport"
+                   },
+                   {
+                       "id":  225,
+                       "makeSlug":  "mitsubishi",
+                       "slug":  "eclipse",
+                       "nameAz":  "Eclipse",
+                       "nameEn":  "Eclipse"
+                   },
+                   {
+                       "id":  226,
+                       "makeSlug":  "subaru",
+                       "slug":  "impreza",
+                       "nameAz":  "Impreza",
+                       "nameEn":  "Impreza"
+                   },
+                   {
+                       "id":  227,
+                       "makeSlug":  "subaru",
+                       "slug":  "legacy",
+                       "nameAz":  "Legacy",
+                       "nameEn":  "Legacy"
+                   },
+                   {
+                       "id":  228,
+                       "makeSlug":  "subaru",
+                       "slug":  "outback",
+                       "nameAz":  "Outback",
+                       "nameEn":  "Outback"
+                   },
+                   {
+                       "id":  229,
+                       "makeSlug":  "subaru",
+                       "slug":  "forester",
+                       "nameAz":  "Forester",
+                       "nameEn":  "Forester"
+                   },
+                   {
+                       "id":  230,
+                       "makeSlug":  "subaru",
+                       "slug":  "crosstrek",
+                       "nameAz":  "Crosstrek",
+                       "nameEn":  "Crosstrek"
+                   },
+                   {
+                       "id":  231,
+                       "makeSlug":  "subaru",
+                       "slug":  "ascent",
+                       "nameAz":  "Ascent",
+                       "nameEn":  "Ascent"
+                   },
+                   {
+                       "id":  232,
+                       "makeSlug":  "subaru",
+                       "slug":  "brz",
+                       "nameAz":  "BRZ",
+                       "nameEn":  "BRZ"
+                   },
+                   {
+                       "id":  233,
+                       "makeSlug":  "subaru",
+                       "slug":  "wrx",
+                       "nameAz":  "WRX",
+                       "nameEn":  "WRX"
+                   },
+                   {
+                       "id":  234,
+                       "makeSlug":  "subaru",
+                       "slug":  "solterra",
+                       "nameAz":  "Solterra",
+                       "nameEn":  "Solterra"
+                   },
+                   {
+                       "id":  235,
+                       "makeSlug":  "suzuki",
+                       "slug":  "swift",
+                       "nameAz":  "Swift",
+                       "nameEn":  "Swift"
+                   },
+                   {
+                       "id":  236,
+                       "makeSlug":  "suzuki",
+                       "slug":  "baleno",
+                       "nameAz":  "Baleno",
+                       "nameEn":  "Baleno"
+                   },
+                   {
+                       "id":  237,
+                       "makeSlug":  "suzuki",
+                       "slug":  "ciaz",
+                       "nameAz":  "Ciaz",
+                       "nameEn":  "Ciaz"
+                   },
+                   {
+                       "id":  238,
+                       "makeSlug":  "suzuki",
+                       "slug":  "dzire",
+                       "nameAz":  "Dzire",
+                       "nameEn":  "Dzire"
+                   },
+                   {
+                       "id":  239,
+                       "makeSlug":  "suzuki",
+                       "slug":  "vitara",
+                       "nameAz":  "Vitara",
+                       "nameEn":  "Vitara"
+                   },
+                   {
+                       "id":  240,
+                       "makeSlug":  "suzuki",
+                       "slug":  "grand-vitara",
+                       "nameAz":  "Grand Vitara",
+                       "nameEn":  "Grand Vitara"
+                   },
+                   {
+                       "id":  241,
+                       "makeSlug":  "suzuki",
+                       "slug":  "s-cross",
+                       "nameAz":  "S-Cross",
+                       "nameEn":  "S-Cross"
+                   },
+                   {
+                       "id":  242,
+                       "makeSlug":  "suzuki",
+                       "slug":  "jimny",
+                       "nameAz":  "Jimny",
+                       "nameEn":  "Jimny"
+                   },
+                   {
+                       "id":  243,
+                       "makeSlug":  "suzuki",
+                       "slug":  "ignis",
+                       "nameAz":  "Ignis",
+                       "nameEn":  "Ignis"
+                   },
+                   {
+                       "id":  244,
+                       "makeSlug":  "suzuki",
+                       "slug":  "sx4",
+                       "nameAz":  "SX4",
+                       "nameEn":  "SX4"
+                   },
+                   {
+                       "id":  245,
+                       "makeSlug":  "infiniti",
+                       "slug":  "q30",
+                       "nameAz":  "Q30",
+                       "nameEn":  "Q30"
+                   },
+                   {
+                       "id":  246,
+                       "makeSlug":  "infiniti",
+                       "slug":  "q50",
+                       "nameAz":  "Q50",
+                       "nameEn":  "Q50"
+                   },
+                   {
+                       "id":  247,
+                       "makeSlug":  "infiniti",
+                       "slug":  "q60",
+                       "nameAz":  "Q60",
+                       "nameEn":  "Q60"
+                   },
+                   {
+                       "id":  248,
+                       "makeSlug":  "infiniti",
+                       "slug":  "q70",
+                       "nameAz":  "Q70",
+                       "nameEn":  "Q70"
+                   },
+                   {
+                       "id":  249,
+                       "makeSlug":  "infiniti",
+                       "slug":  "qx30",
+                       "nameAz":  "QX30",
+                       "nameEn":  "QX30"
+                   },
+                   {
+                       "id":  250,
+                       "makeSlug":  "infiniti",
+                       "slug":  "qx50",
+                       "nameAz":  "QX50",
+                       "nameEn":  "QX50"
+                   },
+                   {
+                       "id":  251,
+                       "makeSlug":  "infiniti",
+                       "slug":  "qx55",
+                       "nameAz":  "QX55",
+                       "nameEn":  "QX55"
+                   },
+                   {
+                       "id":  252,
+                       "makeSlug":  "infiniti",
+                       "slug":  "qx60",
+                       "nameAz":  "QX60",
+                       "nameEn":  "QX60"
+                   },
+                   {
+                       "id":  253,
+                       "makeSlug":  "infiniti",
+                       "slug":  "qx70",
+                       "nameAz":  "QX70",
+                       "nameEn":  "QX70"
+                   },
+                   {
+                       "id":  254,
+                       "makeSlug":  "infiniti",
+                       "slug":  "qx80",
+                       "nameAz":  "QX80",
+                       "nameEn":  "QX80"
+                   },
+                   {
+                       "id":  255,
+                       "makeSlug":  "renault",
+                       "slug":  "clio",
+                       "nameAz":  "Clio",
+                       "nameEn":  "Clio"
+                   },
+                   {
+                       "id":  256,
+                       "makeSlug":  "renault",
+                       "slug":  "megane",
+                       "nameAz":  "Megane",
+                       "nameEn":  "Megane"
+                   },
+                   {
+                       "id":  257,
+                       "makeSlug":  "renault",
+                       "slug":  "logan",
+                       "nameAz":  "Logan",
+                       "nameEn":  "Logan"
+                   },
+                   {
+                       "id":  258,
+                       "makeSlug":  "renault",
+                       "slug":  "sandero",
+                       "nameAz":  "Sandero",
+                       "nameEn":  "Sandero"
+                   },
+                   {
+                       "id":  259,
+                       "makeSlug":  "renault",
+                       "slug":  "duster",
+                       "nameAz":  "Duster",
+                       "nameEn":  "Duster"
+                   },
+                   {
+                       "id":  260,
+                       "makeSlug":  "renault",
+                       "slug":  "captur",
+                       "nameAz":  "Captur",
+                       "nameEn":  "Captur"
+                   },
+                   {
+                       "id":  261,
+                       "makeSlug":  "renault",
+                       "slug":  "kaptur",
+                       "nameAz":  "Kaptur",
+                       "nameEn":  "Kaptur"
+                   },
+                   {
+                       "id":  262,
+                       "makeSlug":  "renault",
+                       "slug":  "arkana",
+                       "nameAz":  "Arkana",
+                       "nameEn":  "Arkana"
+                   },
+                   {
+                       "id":  263,
+                       "makeSlug":  "renault",
+                       "slug":  "koleos",
+                       "nameAz":  "Koleos",
+                       "nameEn":  "Koleos"
+                   },
+                   {
+                       "id":  264,
+                       "makeSlug":  "renault",
+                       "slug":  "austral",
+                       "nameAz":  "Austral",
+                       "nameEn":  "Austral"
+                   },
+                   {
+                       "id":  265,
+                       "makeSlug":  "renault",
+                       "slug":  "talisman",
+                       "nameAz":  "Talisman",
+                       "nameEn":  "Talisman"
+                   },
+                   {
+                       "id":  266,
+                       "makeSlug":  "renault",
+                       "slug":  "kwid",
+                       "nameAz":  "Kwid",
+                       "nameEn":  "Kwid"
+                   },
+                   {
+                       "id":  267,
+                       "makeSlug":  "peugeot",
+                       "slug":  "108",
+                       "nameAz":  "108",
+                       "nameEn":  "108"
+                   },
+                   {
+                       "id":  268,
+                       "makeSlug":  "peugeot",
+                       "slug":  "208",
+                       "nameAz":  "208",
+                       "nameEn":  "208"
+                   },
+                   {
+                       "id":  269,
+                       "makeSlug":  "peugeot",
+                       "slug":  "2008",
+                       "nameAz":  "2008",
+                       "nameEn":  "2008"
+                   },
+                   {
+                       "id":  270,
+                       "makeSlug":  "peugeot",
+                       "slug":  "308",
+                       "nameAz":  "308",
+                       "nameEn":  "308"
+                   },
+                   {
+                       "id":  271,
+                       "makeSlug":  "peugeot",
+                       "slug":  "3008",
+                       "nameAz":  "3008",
+                       "nameEn":  "3008"
+                   },
+                   {
+                       "id":  272,
+                       "makeSlug":  "peugeot",
+                       "slug":  "408",
+                       "nameAz":  "408",
+                       "nameEn":  "408"
+                   },
+                   {
+                       "id":  273,
+                       "makeSlug":  "peugeot",
+                       "slug":  "508",
+                       "nameAz":  "508",
+                       "nameEn":  "508"
+                   },
+                   {
+                       "id":  274,
+                       "makeSlug":  "peugeot",
+                       "slug":  "5008",
+                       "nameAz":  "5008",
+                       "nameEn":  "5008"
+                   },
+                   {
+                       "id":  275,
+                       "makeSlug":  "peugeot",
+                       "slug":  "rifter",
+                       "nameAz":  "Rifter",
+                       "nameEn":  "Rifter"
+                   },
+                   {
+                       "id":  276,
+                       "makeSlug":  "peugeot",
+                       "slug":  "traveller",
+                       "nameAz":  "Traveller",
+                       "nameEn":  "Traveller"
+                   },
+                   {
+                       "id":  277,
+                       "makeSlug":  "citroen",
+                       "slug":  "c1",
+                       "nameAz":  "C1",
+                       "nameEn":  "C1"
+                   },
+                   {
+                       "id":  278,
+                       "makeSlug":  "citroen",
+                       "slug":  "c3",
+                       "nameAz":  "C3",
+                       "nameEn":  "C3"
+                   },
+                   {
+                       "id":  279,
+                       "makeSlug":  "citroen",
+                       "slug":  "c3-aircross",
+                       "nameAz":  "C3 Aircross",
+                       "nameEn":  "C3 Aircross"
+                   },
+                   {
+                       "id":  280,
+                       "makeSlug":  "citroen",
+                       "slug":  "c4",
+                       "nameAz":  "C4",
+                       "nameEn":  "C4"
+                   },
+                   {
+                       "id":  281,
+                       "makeSlug":  "citroen",
+                       "slug":  "c4-x",
+                       "nameAz":  "C4 X",
+                       "nameEn":  "C4 X"
+                   },
+                   {
+                       "id":  282,
+                       "makeSlug":  "citroen",
+                       "slug":  "c5-aircross",
+                       "nameAz":  "C5 Aircross",
+                       "nameEn":  "C5 Aircross"
+                   },
+                   {
+                       "id":  283,
+                       "makeSlug":  "citroen",
+                       "slug":  "c5-x",
+                       "nameAz":  "C5 X",
+                       "nameEn":  "C5 X"
+                   },
+                   {
+                       "id":  284,
+                       "makeSlug":  "citroen",
+                       "slug":  "berlingo",
+                       "nameAz":  "Berlingo",
+                       "nameEn":  "Berlingo"
+                   },
+                   {
+                       "id":  285,
+                       "makeSlug":  "citroen",
+                       "slug":  "spacetourer",
+                       "nameAz":  "SpaceTourer",
+                       "nameEn":  "SpaceTourer"
+                   },
+                   {
+                       "id":  286,
+                       "makeSlug":  "opel",
+                       "slug":  "adam",
+                       "nameAz":  "Adam",
+                       "nameEn":  "Adam"
+                   },
+                   {
+                       "id":  287,
+                       "makeSlug":  "opel",
+                       "slug":  "corsa",
+                       "nameAz":  "Corsa",
+                       "nameEn":  "Corsa"
+                   },
+                   {
+                       "id":  288,
+                       "makeSlug":  "opel",
+                       "slug":  "astra",
+                       "nameAz":  "Astra",
+                       "nameEn":  "Astra"
+                   },
+                   {
+                       "id":  289,
+                       "makeSlug":  "opel",
+                       "slug":  "insignia",
+                       "nameAz":  "Insignia",
+                       "nameEn":  "Insignia"
+                   },
+                   {
+                       "id":  290,
+                       "makeSlug":  "opel",
+                       "slug":  "mokka",
+                       "nameAz":  "Mokka",
+                       "nameEn":  "Mokka"
+                   },
+                   {
+                       "id":  291,
+                       "makeSlug":  "opel",
+                       "slug":  "crossland",
+                       "nameAz":  "Crossland",
+                       "nameEn":  "Crossland"
+                   },
+                   {
+                       "id":  292,
+                       "makeSlug":  "opel",
+                       "slug":  "grandland",
+                       "nameAz":  "Grandland",
+                       "nameEn":  "Grandland"
+                   },
+                   {
+                       "id":  293,
+                       "makeSlug":  "opel",
+                       "slug":  "frontera",
+                       "nameAz":  "Frontera",
+                       "nameEn":  "Frontera"
+                   },
+                   {
+                       "id":  294,
+                       "makeSlug":  "opel",
+                       "slug":  "zafira",
+                       "nameAz":  "Zafira",
+                       "nameEn":  "Zafira"
+                   },
+                   {
+                       "id":  295,
+                       "makeSlug":  "skoda",
+                       "slug":  "fabia",
+                       "nameAz":  "Fabia",
+                       "nameEn":  "Fabia"
+                   },
+                   {
+                       "id":  296,
+                       "makeSlug":  "skoda",
+                       "slug":  "scala",
+                       "nameAz":  "Scala",
+                       "nameEn":  "Scala"
+                   },
+                   {
+                       "id":  297,
+                       "makeSlug":  "skoda",
+                       "slug":  "octavia",
+                       "nameAz":  "Octavia",
+                       "nameEn":  "Octavia"
+                   },
+                   {
+                       "id":  298,
+                       "makeSlug":  "skoda",
+                       "slug":  "superb",
+                       "nameAz":  "Superb",
+                       "nameEn":  "Superb"
+                   },
+                   {
+                       "id":  299,
+                       "makeSlug":  "skoda",
+                       "slug":  "kamiq",
+                       "nameAz":  "Kamiq",
+                       "nameEn":  "Kamiq"
+                   },
+                   {
+                       "id":  300,
+                       "makeSlug":  "skoda",
+                       "slug":  "karoq",
+                       "nameAz":  "Karoq",
+                       "nameEn":  "Karoq"
+                   },
+                   {
+                       "id":  301,
+                       "makeSlug":  "skoda",
+                       "slug":  "kodiaq",
+                       "nameAz":  "Kodiaq",
+                       "nameEn":  "Kodiaq"
+                   },
+                   {
+                       "id":  302,
+                       "makeSlug":  "skoda",
+                       "slug":  "enyaq",
+                       "nameAz":  "Enyaq",
+                       "nameEn":  "Enyaq"
+                   },
+                   {
+                       "id":  303,
+                       "makeSlug":  "skoda",
+                       "slug":  "kushaq",
+                       "nameAz":  "Kushaq",
+                       "nameEn":  "Kushaq"
+                   },
+                   {
+                       "id":  304,
+                       "makeSlug":  "skoda",
+                       "slug":  "slavia",
+                       "nameAz":  "Slavia",
+                       "nameEn":  "Slavia"
+                   },
+                   {
+                       "id":  305,
+                       "makeSlug":  "volvo",
+                       "slug":  "s60",
+                       "nameAz":  "S60",
+                       "nameEn":  "S60"
+                   },
+                   {
+                       "id":  306,
+                       "makeSlug":  "volvo",
+                       "slug":  "s90",
+                       "nameAz":  "S90",
+                       "nameEn":  "S90"
+                   },
+                   {
+                       "id":  307,
+                       "makeSlug":  "volvo",
+                       "slug":  "v40",
+                       "nameAz":  "V40",
+                       "nameEn":  "V40"
+                   },
+                   {
+                       "id":  308,
+                       "makeSlug":  "volvo",
+                       "slug":  "v60",
+                       "nameAz":  "V60",
+                       "nameEn":  "V60"
+                   },
+                   {
+                       "id":  309,
+                       "makeSlug":  "volvo",
+                       "slug":  "v90",
+                       "nameAz":  "V90",
+                       "nameEn":  "V90"
+                   },
+                   {
+                       "id":  310,
+                       "makeSlug":  "volvo",
+                       "slug":  "xc40",
+                       "nameAz":  "XC40",
+                       "nameEn":  "XC40"
+                   },
+                   {
+                       "id":  311,
+                       "makeSlug":  "volvo",
+                       "slug":  "xc60",
+                       "nameAz":  "XC60",
+                       "nameEn":  "XC60"
+                   },
+                   {
+                       "id":  312,
+                       "makeSlug":  "volvo",
+                       "slug":  "xc90",
+                       "nameAz":  "XC90",
+                       "nameEn":  "XC90"
+                   },
+                   {
+                       "id":  313,
+                       "makeSlug":  "volvo",
+                       "slug":  "ex30",
+                       "nameAz":  "EX30",
+                       "nameEn":  "EX30"
+                   },
+                   {
+                       "id":  314,
+                       "makeSlug":  "volvo",
+                       "slug":  "ex40",
+                       "nameAz":  "EX40",
+                       "nameEn":  "EX40"
+                   },
+                   {
+                       "id":  315,
+                       "makeSlug":  "volvo",
+                       "slug":  "ex90",
+                       "nameAz":  "EX90",
+                       "nameEn":  "EX90"
+                   },
+                   {
+                       "id":  316,
+                       "makeSlug":  "jaguar",
+                       "slug":  "xe",
+                       "nameAz":  "XE",
+                       "nameEn":  "XE"
+                   },
+                   {
+                       "id":  317,
+                       "makeSlug":  "jaguar",
+                       "slug":  "xf",
+                       "nameAz":  "XF",
+                       "nameEn":  "XF"
+                   },
+                   {
+                       "id":  318,
+                       "makeSlug":  "jaguar",
+                       "slug":  "xj",
+                       "nameAz":  "XJ",
+                       "nameEn":  "XJ"
+                   },
+                   {
+                       "id":  319,
+                       "makeSlug":  "jaguar",
+                       "slug":  "f-pace",
+                       "nameAz":  "F-Pace",
+                       "nameEn":  "F-Pace"
+                   },
+                   {
+                       "id":  320,
+                       "makeSlug":  "jaguar",
+                       "slug":  "e-pace",
+                       "nameAz":  "E-Pace",
+                       "nameEn":  "E-Pace"
+                   },
+                   {
+                       "id":  321,
+                       "makeSlug":  "jaguar",
+                       "slug":  "i-pace",
+                       "nameAz":  "I-Pace",
+                       "nameEn":  "I-Pace"
+                   },
+                   {
+                       "id":  322,
+                       "makeSlug":  "jaguar",
+                       "slug":  "f-type",
+                       "nameAz":  "F-Type",
+                       "nameEn":  "F-Type"
+                   },
+                   {
+                       "id":  323,
+                       "makeSlug":  "jeep",
+                       "slug":  "renegade",
+                       "nameAz":  "Renegade",
+                       "nameEn":  "Renegade"
+                   },
+                   {
+                       "id":  324,
+                       "makeSlug":  "jeep",
+                       "slug":  "compass",
+                       "nameAz":  "Compass",
+                       "nameEn":  "Compass"
+                   },
+                   {
+                       "id":  325,
+                       "makeSlug":  "jeep",
+                       "slug":  "cherokee",
+                       "nameAz":  "Cherokee",
+                       "nameEn":  "Cherokee"
+                   },
+                   {
+                       "id":  326,
+                       "makeSlug":  "jeep",
+                       "slug":  "grand-cherokee",
+                       "nameAz":  "Grand Cherokee",
+                       "nameEn":  "Grand Cherokee"
+                   },
+                   {
+                       "id":  327,
+                       "makeSlug":  "jeep",
+                       "slug":  "wrangler",
+                       "nameAz":  "Wrangler",
+                       "nameEn":  "Wrangler"
+                   },
+                   {
+                       "id":  328,
+                       "makeSlug":  "jeep",
+                       "slug":  "gladiator",
+                       "nameAz":  "Gladiator",
+                       "nameEn":  "Gladiator"
+                   },
+                   {
+                       "id":  329,
+                       "makeSlug":  "jeep",
+                       "slug":  "avenger",
+                       "nameAz":  "Avenger",
+                       "nameEn":  "Avenger"
+                   },
+                   {
+                       "id":  330,
+                       "makeSlug":  "jeep",
+                       "slug":  "commander",
+                       "nameAz":  "Commander",
+                       "nameEn":  "Commander"
+                   },
+                   {
+                       "id":  331,
+                       "makeSlug":  "tesla",
+                       "slug":  "model-s",
+                       "nameAz":  "Model S",
+                       "nameEn":  "Model S"
+                   },
+                   {
+                       "id":  332,
+                       "makeSlug":  "tesla",
+                       "slug":  "model-3",
+                       "nameAz":  "Model 3",
+                       "nameEn":  "Model 3"
+                   },
+                   {
+                       "id":  333,
+                       "makeSlug":  "tesla",
+                       "slug":  "model-x",
+                       "nameAz":  "Model X",
+                       "nameEn":  "Model X"
+                   },
+                   {
+                       "id":  334,
+                       "makeSlug":  "tesla",
+                       "slug":  "model-y",
+                       "nameAz":  "Model Y",
+                       "nameEn":  "Model Y"
+                   },
+                   {
+                       "id":  335,
+                       "makeSlug":  "tesla",
+                       "slug":  "cybertruck",
+                       "nameAz":  "Cybertruck",
+                       "nameEn":  "Cybertruck"
+                   },
+                   {
+                       "id":  336,
+                       "makeSlug":  "tesla",
+                       "slug":  "roadster",
+                       "nameAz":  "Roadster",
+                       "nameEn":  "Roadster"
+                   },
+                   {
+                       "id":  337,
+                       "makeSlug":  "byd",
+                       "slug":  "atto-3",
+                       "nameAz":  "Atto 3",
+                       "nameEn":  "Atto 3"
+                   },
+                   {
+                       "id":  338,
+                       "makeSlug":  "byd",
+                       "slug":  "dolphin",
+                       "nameAz":  "Dolphin",
+                       "nameEn":  "Dolphin"
+                   },
+                   {
+                       "id":  339,
+                       "makeSlug":  "byd",
+                       "slug":  "seal",
+                       "nameAz":  "Seal",
+                       "nameEn":  "Seal"
+                   },
+                   {
+                       "id":  340,
+                       "makeSlug":  "byd",
+                       "slug":  "seal-u",
+                       "nameAz":  "Seal U",
+                       "nameEn":  "Seal U"
+                   },
+                   {
+                       "id":  341,
+                       "makeSlug":  "byd",
+                       "slug":  "han",
+                       "nameAz":  "Han",
+                       "nameEn":  "Han"
+                   },
+                   {
+                       "id":  342,
+                       "makeSlug":  "byd",
+                       "slug":  "tang",
+                       "nameAz":  "Tang",
+                       "nameEn":  "Tang"
+                   },
+                   {
+                       "id":  343,
+                       "makeSlug":  "byd",
+                       "slug":  "song-plus",
+                       "nameAz":  "Song Plus",
+                       "nameEn":  "Song Plus"
+                   },
+                   {
+                       "id":  344,
+                       "makeSlug":  "byd",
+                       "slug":  "song-pro",
+                       "nameAz":  "Song Pro",
+                       "nameEn":  "Song Pro"
+                   },
+                   {
+                       "id":  345,
+                       "makeSlug":  "byd",
+                       "slug":  "qin-plus",
+                       "nameAz":  "Qin Plus",
+                       "nameEn":  "Qin Plus"
+                   },
+                   {
+                       "id":  346,
+                       "makeSlug":  "byd",
+                       "slug":  "yuan-plus",
+                       "nameAz":  "Yuan Plus",
+                       "nameEn":  "Yuan Plus"
+                   },
+                   {
+                       "id":  347,
+                       "makeSlug":  "byd",
+                       "slug":  "seagull",
+                       "nameAz":  "Seagull",
+                       "nameEn":  "Seagull"
+                   },
+                   {
+                       "id":  348,
+                       "makeSlug":  "byd",
+                       "slug":  "leopard-5",
+                       "nameAz":  "Leopard 5",
+                       "nameEn":  "Leopard 5"
+                   },
+                   {
+                       "id":  349,
+                       "makeSlug":  "chery",
+                       "slug":  "tiggo-2",
+                       "nameAz":  "Tiggo 2",
+                       "nameEn":  "Tiggo 2"
+                   },
+                   {
+                       "id":  350,
+                       "makeSlug":  "chery",
+                       "slug":  "tiggo-4",
+                       "nameAz":  "Tiggo 4",
+                       "nameEn":  "Tiggo 4"
+                   },
+                   {
+                       "id":  351,
+                       "makeSlug":  "chery",
+                       "slug":  "tiggo-7",
+                       "nameAz":  "Tiggo 7",
+                       "nameEn":  "Tiggo 7"
+                   },
+                   {
+                       "id":  352,
+                       "makeSlug":  "chery",
+                       "slug":  "tiggo-8",
+                       "nameAz":  "Tiggo 8",
+                       "nameEn":  "Tiggo 8"
+                   },
+                   {
+                       "id":  353,
+                       "makeSlug":  "chery",
+                       "slug":  "tiggo-9",
+                       "nameAz":  "Tiggo 9",
+                       "nameEn":  "Tiggo 9"
+                   },
+                   {
+                       "id":  354,
+                       "makeSlug":  "chery",
+                       "slug":  "arrizo-5",
+                       "nameAz":  "Arrizo 5",
+                       "nameEn":  "Arrizo 5"
+                   },
+                   {
+                       "id":  355,
+                       "makeSlug":  "chery",
+                       "slug":  "arrizo-6",
+                       "nameAz":  "Arrizo 6",
+                       "nameEn":  "Arrizo 6"
+                   },
+                   {
+                       "id":  356,
+                       "makeSlug":  "chery",
+                       "slug":  "arrizo-8",
+                       "nameAz":  "Arrizo 8",
+                       "nameEn":  "Arrizo 8"
+                   },
+                   {
+                       "id":  357,
+                       "makeSlug":  "geely",
+                       "slug":  "emgrand",
+                       "nameAz":  "Emgrand",
+                       "nameEn":  "Emgrand"
+                   },
+                   {
+                       "id":  358,
+                       "makeSlug":  "geely",
+                       "slug":  "coolray",
+                       "nameAz":  "Coolray",
+                       "nameEn":  "Coolray"
+                   },
+                   {
+                       "id":  359,
+                       "makeSlug":  "geely",
+                       "slug":  "atlas",
+                       "nameAz":  "Atlas",
+                       "nameEn":  "Atlas"
+                   },
+                   {
+                       "id":  360,
+                       "makeSlug":  "geely",
+                       "slug":  "monjaro",
+                       "nameAz":  "Monjaro",
+                       "nameEn":  "Monjaro"
+                   },
+                   {
+                       "id":  361,
+                       "makeSlug":  "geely",
+                       "slug":  "tugella",
+                       "nameAz":  "Tugella",
+                       "nameEn":  "Tugella"
+                   },
+                   {
+                       "id":  362,
+                       "makeSlug":  "geely",
+                       "slug":  "okavango",
+                       "nameAz":  "Okavango",
+                       "nameEn":  "Okavango"
+                   },
+                   {
+                       "id":  363,
+                       "makeSlug":  "geely",
+                       "slug":  "preface",
+                       "nameAz":  "Preface",
+                       "nameEn":  "Preface"
+                   },
+                   {
+                       "id":  364,
+                       "makeSlug":  "geely",
+                       "slug":  "starray",
+                       "nameAz":  "Starray",
+                       "nameEn":  "Starray"
+                   },
+                   {
+                       "id":  365,
+                       "makeSlug":  "geely",
+                       "slug":  "ex5",
+                       "nameAz":  "EX5",
+                       "nameEn":  "EX5"
+                   },
+                   {
+                       "id":  366,
+                       "makeSlug":  "geely",
+                       "slug":  "galaxy-e5",
+                       "nameAz":  "Galaxy E5",
+                       "nameEn":  "Galaxy E5"
+                   },
+                   {
+                       "id":  367,
+                       "makeSlug":  "geely",
+                       "slug":  "galaxy-l7",
+                       "nameAz":  "Galaxy L7",
+                       "nameEn":  "Galaxy L7"
+                   },
+                   {
+                       "id":  368,
+                       "makeSlug":  "haval",
+                       "slug":  "jolion",
+                       "nameAz":  "Jolion",
+                       "nameEn":  "Jolion"
+                   },
+                   {
+                       "id":  369,
+                       "makeSlug":  "haval",
+                       "slug":  "h6",
+                       "nameAz":  "H6",
+                       "nameEn":  "H6"
+                   },
+                   {
+                       "id":  370,
+                       "makeSlug":  "haval",
+                       "slug":  "h9",
+                       "nameAz":  "H9",
+                       "nameEn":  "H9"
+                   },
+                   {
+                       "id":  371,
+                       "makeSlug":  "haval",
+                       "slug":  "dargo",
+                       "nameAz":  "Dargo",
+                       "nameEn":  "Dargo"
+                   },
+                   {
+                       "id":  372,
+                       "makeSlug":  "haval",
+                       "slug":  "f7",
+                       "nameAz":  "F7",
+                       "nameEn":  "F7"
+                   },
+                   {
+                       "id":  373,
+                       "makeSlug":  "haval",
+                       "slug":  "f7x",
+                       "nameAz":  "F7x",
+                       "nameEn":  "F7x"
+                   },
+                   {
+                       "id":  374,
+                       "makeSlug":  "haval",
+                       "slug":  "m6",
+                       "nameAz":  "M6",
+                       "nameEn":  "M6"
+                   },
+                   {
+                       "id":  375,
+                       "makeSlug":  "haval",
+                       "slug":  "h5",
+                       "nameAz":  "H5",
+                       "nameEn":  "H5"
+                   },
+                   {
+                       "id":  376,
+                       "makeSlug":  "changan",
+                       "slug":  "alsvin",
+                       "nameAz":  "Alsvin",
+                       "nameEn":  "Alsvin"
+                   },
+                   {
+                       "id":  377,
+                       "makeSlug":  "changan",
+                       "slug":  "eado",
+                       "nameAz":  "Eado",
+                       "nameEn":  "Eado"
+                   },
+                   {
+                       "id":  378,
+                       "makeSlug":  "changan",
+                       "slug":  "cs35-plus",
+                       "nameAz":  "CS35 Plus",
+                       "nameEn":  "CS35 Plus"
+                   },
+                   {
+                       "id":  379,
+                       "makeSlug":  "changan",
+                       "slug":  "cs55-plus",
+                       "nameAz":  "CS55 Plus",
+                       "nameEn":  "CS55 Plus"
+                   },
+                   {
+                       "id":  380,
+                       "makeSlug":  "changan",
+                       "slug":  "cs75-plus",
+                       "nameAz":  "CS75 Plus",
+                       "nameEn":  "CS75 Plus"
+                   },
+                   {
+                       "id":  381,
+                       "makeSlug":  "changan",
+                       "slug":  "cs95",
+                       "nameAz":  "CS95",
+                       "nameEn":  "CS95"
+                   },
+                   {
+                       "id":  382,
+                       "makeSlug":  "changan",
+                       "slug":  "uni-t",
+                       "nameAz":  "UNI-T",
+                       "nameEn":  "UNI-T"
+                   },
+                   {
+                       "id":  383,
+                       "makeSlug":  "changan",
+                       "slug":  "uni-k",
+                       "nameAz":  "UNI-K",
+                       "nameEn":  "UNI-K"
+                   },
+                   {
+                       "id":  384,
+                       "makeSlug":  "changan",
+                       "slug":  "uni-v",
+                       "nameAz":  "UNI-V",
+                       "nameEn":  "UNI-V"
+                   },
+                   {
+                       "id":  385,
+                       "makeSlug":  "changan",
+                       "slug":  "deepal-s07",
+                       "nameAz":  "Deepal S07",
+                       "nameEn":  "Deepal S07"
+                   },
+                   {
+                       "id":  386,
+                       "makeSlug":  "changan",
+                       "slug":  "deepal-s05",
+                       "nameAz":  "Deepal S05",
+                       "nameEn":  "Deepal S05"
+                   },
+                   {
+                       "id":  387,
+                       "makeSlug":  "changan",
+                       "slug":  "lumin",
+                       "nameAz":  "Lumin",
+                       "nameEn":  "Lumin"
+                   },
+                   {
+                       "id":  388,
+                       "makeSlug":  "gac",
+                       "slug":  "gs3",
+                       "nameAz":  "GS3",
+                       "nameEn":  "GS3"
+                   },
+                   {
+                       "id":  389,
+                       "makeSlug":  "gac",
+                       "slug":  "gs4",
+                       "nameAz":  "GS4",
+                       "nameEn":  "GS4"
+                   },
+                   {
+                       "id":  390,
+                       "makeSlug":  "gac",
+                       "slug":  "gs5",
+                       "nameAz":  "GS5",
+                       "nameEn":  "GS5"
+                   },
+                   {
+                       "id":  391,
+                       "makeSlug":  "gac",
+                       "slug":  "gs8",
+                       "nameAz":  "GS8",
+                       "nameEn":  "GS8"
+                   },
+                   {
+                       "id":  392,
+                       "makeSlug":  "gac",
+                       "slug":  "empow",
+                       "nameAz":  "Empow",
+                       "nameEn":  "Empow"
+                   },
+                   {
+                       "id":  393,
+                       "makeSlug":  "gac",
+                       "slug":  "emkoo",
+                       "nameAz":  "Emkoo",
+                       "nameEn":  "Emkoo"
+                   },
+                   {
+                       "id":  394,
+                       "makeSlug":  "gac",
+                       "slug":  "aion-y",
+                       "nameAz":  "Aion Y",
+                       "nameEn":  "Aion Y"
+                   },
+                   {
+                       "id":  395,
+                       "makeSlug":  "gac",
+                       "slug":  "aion-v",
+                       "nameAz":  "Aion V",
+                       "nameEn":  "Aion V"
+                   },
+                   {
+                       "id":  396,
+                       "makeSlug":  "gac",
+                       "slug":  "hyptec-ht",
+                       "nameAz":  "Hyptec HT",
+                       "nameEn":  "Hyptec HT"
+                   },
+                   {
+                       "id":  397,
+                       "makeSlug":  "jac",
+                       "slug":  "js3",
+                       "nameAz":  "JS3",
+                       "nameEn":  "JS3"
+                   },
+                   {
+                       "id":  398,
+                       "makeSlug":  "jac",
+                       "slug":  "js4",
+                       "nameAz":  "JS4",
+                       "nameEn":  "JS4"
+                   },
+                   {
+                       "id":  399,
+                       "makeSlug":  "jac",
+                       "slug":  "js6",
+                       "nameAz":  "JS6",
+                       "nameEn":  "JS6"
+                   },
+                   {
+                       "id":  400,
+                       "makeSlug":  "jac",
+                       "slug":  "j7",
+                       "nameAz":  "J7",
+                       "nameEn":  "J7"
+                   },
+                   {
+                       "id":  401,
+                       "makeSlug":  "jac",
+                       "slug":  "s3",
+                       "nameAz":  "S3",
+                       "nameEn":  "S3"
+                   },
+                   {
+                       "id":  402,
+                       "makeSlug":  "jac",
+                       "slug":  "s5",
+                       "nameAz":  "S5",
+                       "nameEn":  "S5"
+                   },
+                   {
+                       "id":  403,
+                       "makeSlug":  "jac",
+                       "slug":  "e30x",
+                       "nameAz":  "E30X",
+                       "nameEn":  "E30X"
+                   },
+                   {
+                       "id":  404,
+                       "makeSlug":  "jac",
+                       "slug":  "rf8",
+                       "nameAz":  "RF8",
+                       "nameEn":  "RF8"
+                   },
+                   {
+                       "id":  405,
+                       "makeSlug":  "jetour",
+                       "slug":  "x50",
+                       "nameAz":  "X50",
+                       "nameEn":  "X50"
+                   },
+                   {
+                       "id":  406,
+                       "makeSlug":  "jetour",
+                       "slug":  "x70",
+                       "nameAz":  "X70",
+                       "nameEn":  "X70"
+                   },
+                   {
+                       "id":  407,
+                       "makeSlug":  "jetour",
+                       "slug":  "x70-plus",
+                       "nameAz":  "X70 Plus",
+                       "nameEn":  "X70 Plus"
+                   },
+                   {
+                       "id":  408,
+                       "makeSlug":  "jetour",
+                       "slug":  "x90-plus",
+                       "nameAz":  "X90 Plus",
+                       "nameEn":  "X90 Plus"
+                   },
+                   {
+                       "id":  409,
+                       "makeSlug":  "jetour",
+                       "slug":  "dashing",
+                       "nameAz":  "Dashing",
+                       "nameEn":  "Dashing"
+                   },
+                   {
+                       "id":  410,
+                       "makeSlug":  "jetour",
+                       "slug":  "t1",
+                       "nameAz":  "T1",
+                       "nameEn":  "T1"
+                   },
+                   {
+                       "id":  411,
+                       "makeSlug":  "jetour",
+                       "slug":  "t2",
+                       "nameAz":  "T2",
+                       "nameEn":  "T2"
+                   },
+                   {
+                       "id":  412,
+                       "makeSlug":  "jetour",
+                       "slug":  "traveller",
+                       "nameAz":  "Traveller",
+                       "nameEn":  "Traveller"
+                   },
+                   {
+                       "id":  413,
+                       "makeSlug":  "exeed",
+                       "slug":  "lx",
+                       "nameAz":  "LX",
+                       "nameEn":  "LX"
+                   },
+                   {
+                       "id":  414,
+                       "makeSlug":  "exeed",
+                       "slug":  "txl",
+                       "nameAz":  "TXL",
+                       "nameEn":  "TXL"
+                   },
+                   {
+                       "id":  415,
+                       "makeSlug":  "exeed",
+                       "slug":  "vx",
+                       "nameAz":  "VX",
+                       "nameEn":  "VX"
+                   },
+                   {
+                       "id":  416,
+                       "makeSlug":  "exeed",
+                       "slug":  "rx",
+                       "nameAz":  "RX",
+                       "nameEn":  "RX"
+                   },
+                   {
+                       "id":  417,
+                       "makeSlug":  "exeed",
+                       "slug":  "es",
+                       "nameAz":  "ES",
+                       "nameEn":  "ES"
+                   },
+                   {
+                       "id":  418,
+                       "makeSlug":  "exeed",
+                       "slug":  "et",
+                       "nameAz":  "ET",
+                       "nameEn":  "ET"
+                   },
+                   {
+                       "id":  419,
+                       "makeSlug":  "hongqi",
+                       "slug":  "h5",
+                       "nameAz":  "H5",
+                       "nameEn":  "H5"
+                   },
+                   {
+                       "id":  420,
+                       "makeSlug":  "hongqi",
+                       "slug":  "h6",
+                       "nameAz":  "H6",
+                       "nameEn":  "H6"
+                   },
+                   {
+                       "id":  421,
+                       "makeSlug":  "hongqi",
+                       "slug":  "h9",
+                       "nameAz":  "H9",
+                       "nameEn":  "H9"
+                   },
+                   {
+                       "id":  422,
+                       "makeSlug":  "hongqi",
+                       "slug":  "hs3",
+                       "nameAz":  "HS3",
+                       "nameEn":  "HS3"
+                   },
+                   {
+                       "id":  423,
+                       "makeSlug":  "hongqi",
+                       "slug":  "hs5",
+                       "nameAz":  "HS5",
+                       "nameEn":  "HS5"
+                   },
+                   {
+                       "id":  424,
+                       "makeSlug":  "hongqi",
+                       "slug":  "hs7",
+                       "nameAz":  "HS7",
+                       "nameEn":  "HS7"
+                   },
+                   {
+                       "id":  425,
+                       "makeSlug":  "hongqi",
+                       "slug":  "e-hs9",
+                       "nameAz":  "E-HS9",
+                       "nameEn":  "E-HS9"
+                   },
+                   {
+                       "id":  426,
+                       "makeSlug":  "hongqi",
+                       "slug":  "e-qm5",
+                       "nameAz":  "E-QM5",
+                       "nameEn":  "E-QM5"
+                   },
+                   {
+                       "id":  427,
+                       "makeSlug":  "hongqi",
+                       "slug":  "eh7",
+                       "nameAz":  "EH7",
+                       "nameEn":  "EH7"
+                   },
+                   {
+                       "id":  428,
+                       "makeSlug":  "dongfeng",
+                       "slug":  "huge",
+                       "nameAz":  "Huge",
+                       "nameEn":  "Huge"
+                   },
+                   {
+                       "id":  429,
+                       "makeSlug":  "dongfeng",
+                       "slug":  "t5-evo",
+                       "nameAz":  "T5 Evo",
+                       "nameEn":  "T5 Evo"
+                   },
+                   {
+                       "id":  430,
+                       "makeSlug":  "dongfeng",
+                       "slug":  "shine",
+                       "nameAz":  "Shine",
+                       "nameEn":  "Shine"
+                   },
+                   {
+                       "id":  431,
+                       "makeSlug":  "dongfeng",
+                       "slug":  "fengon-500",
+                       "nameAz":  "Fengon 500",
+                       "nameEn":  "Fengon 500"
+                   },
+                   {
+                       "id":  432,
+                       "makeSlug":  "dongfeng",
+                       "slug":  "fengon-580",
+                       "nameAz":  "Fengon 580",
+                       "nameEn":  "Fengon 580"
+                   },
+                   {
+                       "id":  433,
+                       "makeSlug":  "dongfeng",
+                       "slug":  "forthing-t5",
+                       "nameAz":  "Forthing T5",
+                       "nameEn":  "Forthing T5"
+                   },
+                   {
+                       "id":  434,
+                       "makeSlug":  "faw",
+                       "slug":  "bestune-t77",
+                       "nameAz":  "Bestune T77",
+                       "nameEn":  "Bestune T77"
+                   },
+                   {
+                       "id":  435,
+                       "makeSlug":  "faw",
+                       "slug":  "bestune-t99",
+                       "nameAz":  "Bestune T99",
+                       "nameEn":  "Bestune T99"
+                   },
+                   {
+                       "id":  436,
+                       "makeSlug":  "faw",
+                       "slug":  "bestune-b70",
+                       "nameAz":  "Bestune B70",
+                       "nameEn":  "Bestune B70"
+                   },
+                   {
+                       "id":  437,
+                       "makeSlug":  "faw",
+                       "slug":  "bestune-t55",
+                       "nameAz":  "Bestune T55",
+                       "nameEn":  "Bestune T55"
+                   },
+                   {
+                       "id":  438,
+                       "makeSlug":  "faw",
+                       "slug":  "nat",
+                       "nameAz":  "NAT",
+                       "nameEn":  "NAT"
+                   },
+                   {
+                       "id":  439,
+                       "makeSlug":  "li-auto",
+                       "slug":  "l6",
+                       "nameAz":  "L6",
+                       "nameEn":  "L6"
+                   },
+                   {
+                       "id":  440,
+                       "makeSlug":  "li-auto",
+                       "slug":  "l7",
+                       "nameAz":  "L7",
+                       "nameEn":  "L7"
+                   },
+                   {
+                       "id":  441,
+                       "makeSlug":  "li-auto",
+                       "slug":  "l8",
+                       "nameAz":  "L8",
+                       "nameEn":  "L8"
+                   },
+                   {
+                       "id":  442,
+                       "makeSlug":  "li-auto",
+                       "slug":  "l9",
+                       "nameAz":  "L9",
+                       "nameEn":  "L9"
+                   },
+                   {
+                       "id":  443,
+                       "makeSlug":  "li-auto",
+                       "slug":  "mega",
+                       "nameAz":  "MEGA",
+                       "nameEn":  "MEGA"
+                   },
+                   {
+                       "id":  444,
+                       "makeSlug":  "zeekr",
+                       "slug":  "001",
+                       "nameAz":  "001",
+                       "nameEn":  "001"
+                   },
+                   {
+                       "id":  445,
+                       "makeSlug":  "zeekr",
+                       "slug":  "007",
+                       "nameAz":  "007",
+                       "nameEn":  "007"
+                   },
+                   {
+                       "id":  446,
+                       "makeSlug":  "zeekr",
+                       "slug":  "009",
+                       "nameAz":  "009",
+                       "nameEn":  "009"
+                   },
+                   {
+                       "id":  447,
+                       "makeSlug":  "zeekr",
+                       "slug":  "x",
+                       "nameAz":  "X",
+                       "nameEn":  "X"
+                   },
+                   {
+                       "id":  448,
+                       "makeSlug":  "zeekr",
+                       "slug":  "7x",
+                       "nameAz":  "7X",
+                       "nameEn":  "7X"
+                   },
+                   {
+                       "id":  449,
+                       "makeSlug":  "zeekr",
+                       "slug":  "mix",
+                       "nameAz":  "MIX",
+                       "nameEn":  "MIX"
+                   },
+                   {
+                       "id":  450,
+                       "makeSlug":  "xpeng",
+                       "slug":  "g3",
+                       "nameAz":  "G3",
+                       "nameEn":  "G3"
+                   },
+                   {
+                       "id":  451,
+                       "makeSlug":  "xpeng",
+                       "slug":  "g6",
+                       "nameAz":  "G6",
+                       "nameEn":  "G6"
+                   },
+                   {
+                       "id":  452,
+                       "makeSlug":  "xpeng",
+                       "slug":  "g9",
+                       "nameAz":  "G9",
+                       "nameEn":  "G9"
+                   },
+                   {
+                       "id":  453,
+                       "makeSlug":  "xpeng",
+                       "slug":  "p5",
+                       "nameAz":  "P5",
+                       "nameEn":  "P5"
+                   },
+                   {
+                       "id":  454,
+                       "makeSlug":  "xpeng",
+                       "slug":  "p7",
+                       "nameAz":  "P7",
+                       "nameEn":  "P7"
+                   },
+                   {
+                       "id":  455,
+                       "makeSlug":  "xpeng",
+                       "slug":  "mona-m03",
+                       "nameAz":  "Mona M03",
+                       "nameEn":  "Mona M03"
+                   },
+                   {
+                       "id":  456,
+                       "makeSlug":  "xpeng",
+                       "slug":  "x9",
+                       "nameAz":  "X9",
+                       "nameEn":  "X9"
+                   },
+                   {
+                       "id":  457,
+                       "makeSlug":  "omoda",
+                       "slug":  "c5",
+                       "nameAz":  "C5",
+                       "nameEn":  "C5"
+                   },
+                   {
+                       "id":  458,
+                       "makeSlug":  "omoda",
+                       "slug":  "c7",
+                       "nameAz":  "C7",
+                       "nameEn":  "C7"
+                   },
+                   {
+                       "id":  459,
+                       "makeSlug":  "omoda",
+                       "slug":  "e5",
+                       "nameAz":  "E5",
+                       "nameEn":  "E5"
+                   },
+                   {
+                       "id":  460,
+                       "makeSlug":  "omoda",
+                       "slug":  "c9",
+                       "nameAz":  "C9",
+                       "nameEn":  "C9"
+                   },
+                   {
+                       "id":  461,
+                       "makeSlug":  "jaecoo",
+                       "slug":  "j5",
+                       "nameAz":  "J5",
+                       "nameEn":  "J5"
+                   },
+                   {
+                       "id":  462,
+                       "makeSlug":  "jaecoo",
+                       "slug":  "j7",
+                       "nameAz":  "J7",
+                       "nameEn":  "J7"
+                   },
+                   {
+                       "id":  463,
+                       "makeSlug":  "jaecoo",
+                       "slug":  "j8",
+                       "nameAz":  "J8",
+                       "nameEn":  "J8"
+                   },
+                   {
+                       "id":  464,
+                       "makeSlug":  "tank",
+                       "slug":  "300",
+                       "nameAz":  "300",
+                       "nameEn":  "300"
+                   },
+                   {
+                       "id":  465,
+                       "makeSlug":  "tank",
+                       "slug":  "400",
+                       "nameAz":  "400",
+                       "nameEn":  "400"
+                   },
+                   {
+                       "id":  466,
+                       "makeSlug":  "tank",
+                       "slug":  "500",
+                       "nameAz":  "500",
+                       "nameEn":  "500"
+                   },
+                   {
+                       "id":  467,
+                       "makeSlug":  "tank",
+                       "slug":  "700",
+                       "nameAz":  "700",
+                       "nameEn":  "700"
+                   },
+                   {
+                       "id":  468,
+                       "makeSlug":  "mg",
+                       "slug":  "mg-3",
+                       "nameAz":  "MG 3",
+                       "nameEn":  "MG 3"
+                   },
+                   {
+                       "id":  469,
+                       "makeSlug":  "mg",
+                       "slug":  "mg-4",
+                       "nameAz":  "MG 4",
+                       "nameEn":  "MG 4"
+                   },
+                   {
+                       "id":  470,
+                       "makeSlug":  "mg",
+                       "slug":  "mg-5",
+                       "nameAz":  "MG 5",
+                       "nameEn":  "MG 5"
+                   },
+                   {
+                       "id":  471,
+                       "makeSlug":  "mg",
+                       "slug":  "mg-6",
+                       "nameAz":  "MG 6",
+                       "nameEn":  "MG 6"
+                   },
+                   {
+                       "id":  472,
+                       "makeSlug":  "mg",
+                       "slug":  "mg-7",
+                       "nameAz":  "MG 7",
+                       "nameEn":  "MG 7"
+                   },
+                   {
+                       "id":  473,
+                       "makeSlug":  "mg",
+                       "slug":  "zs",
+                       "nameAz":  "ZS",
+                       "nameEn":  "ZS"
+                   },
+                   {
+                       "id":  474,
+                       "makeSlug":  "mg",
+                       "slug":  "hs",
+                       "nameAz":  "HS",
+                       "nameEn":  "HS"
+                   },
+                   {
+                       "id":  475,
+                       "makeSlug":  "mg",
+                       "slug":  "rx5",
+                       "nameAz":  "RX5",
+                       "nameEn":  "RX5"
+                   },
+                   {
+                       "id":  476,
+                       "makeSlug":  "mg",
+                       "slug":  "marvel-r",
+                       "nameAz":  "Marvel R",
+                       "nameEn":  "Marvel R"
+                   },
+                   {
+                       "id":  477,
+                       "makeSlug":  "mg",
+                       "slug":  "cyberster",
+                       "nameAz":  "Cyberster",
+                       "nameEn":  "Cyberster"
+                   },
+                   {
+                       "id":  478,
+                       "makeSlug":  "great-wall",
+                       "slug":  "h6",
+                       "nameAz":  "H6",
+                       "nameEn":  "H6"
+                   },
+                   {
+                       "id":  479,
+                       "makeSlug":  "great-wall",
+                       "slug":  "poer",
+                       "nameAz":  "Poer",
+                       "nameEn":  "Poer"
+                   },
+                   {
+                       "id":  480,
+                       "makeSlug":  "great-wall",
+                       "slug":  "wingle",
+                       "nameAz":  "Wingle",
+                       "nameEn":  "Wingle"
+                   },
+                   {
+                       "id":  481,
+                       "makeSlug":  "great-wall",
+                       "slug":  "cannon",
+                       "nameAz":  "Cannon",
+                       "nameEn":  "Cannon"
+                   },
+                   {
+                       "id":  482,
+                       "makeSlug":  "great-wall",
+                       "slug":  "hover",
+                       "nameAz":  "Hover",
+                       "nameEn":  "Hover"
+                   },
+                   {
+                       "id":  483,
+                       "makeSlug":  "lada",
+                       "slug":  "granta",
+                       "nameAz":  "Granta",
+                       "nameEn":  "Granta"
+                   },
+                   {
+                       "id":  484,
+                       "makeSlug":  "lada",
+                       "slug":  "vesta",
+                       "nameAz":  "Vesta",
+                       "nameEn":  "Vesta"
+                   },
+                   {
+                       "id":  485,
+                       "makeSlug":  "lada",
+                       "slug":  "niva-legend",
+                       "nameAz":  "Niva Legend",
+                       "nameEn":  "Niva Legend"
+                   },
+                   {
+                       "id":  486,
+                       "makeSlug":  "lada",
+                       "slug":  "niva-travel",
+                       "nameAz":  "Niva Travel",
+                       "nameEn":  "Niva Travel"
+                   },
+                   {
+                       "id":  487,
+                       "makeSlug":  "lada",
+                       "slug":  "largus",
+                       "nameAz":  "Largus",
+                       "nameEn":  "Largus"
+                   },
+                   {
+                       "id":  488,
+                       "makeSlug":  "lada",
+                       "slug":  "xray",
+                       "nameAz":  "XRAY",
+                       "nameEn":  "XRAY"
+                   },
+                   {
+                       "id":  489,
+                       "makeSlug":  "lada",
+                       "slug":  "priora",
+                       "nameAz":  "Priora",
+                       "nameEn":  "Priora"
+                   },
+                   {
+                       "id":  490,
+                       "makeSlug":  "lada",
+                       "slug":  "kalina",
+                       "nameAz":  "Kalina",
+                       "nameEn":  "Kalina"
+                   },
+                   {
+                       "id":  491,
+                       "makeSlug":  "baic",
+                       "slug":  "x35",
+                       "nameAz":  "X35",
+                       "nameEn":  "X35"
+                   },
+                   {
+                       "id":  492,
+                       "makeSlug":  "baic",
+                       "slug":  "x55",
+                       "nameAz":  "X55",
+                       "nameEn":  "X55"
+                   },
+                   {
+                       "id":  493,
+                       "makeSlug":  "baic",
+                       "slug":  "x7",
+                       "nameAz":  "X7",
+                       "nameEn":  "X7"
+                   },
+                   {
+                       "id":  494,
+                       "makeSlug":  "baic",
+                       "slug":  "bj30",
+                       "nameAz":  "BJ30",
+                       "nameEn":  "BJ30"
+                   },
+                   {
+                       "id":  495,
+                       "makeSlug":  "baic",
+                       "slug":  "bj40",
+                       "nameAz":  "BJ40",
+                       "nameEn":  "BJ40"
+                   },
+                   {
+                       "id":  496,
+                       "makeSlug":  "baic",
+                       "slug":  "bj60",
+                       "nameAz":  "BJ60",
+                       "nameEn":  "BJ60"
+                   },
+                   {
+                       "id":  497,
+                       "makeSlug":  "baic",
+                       "slug":  "eu5",
+                       "nameAz":  "EU5",
+                       "nameEn":  "EU5"
+                   },
+                   {
+                       "id":  498,
+                       "makeSlug":  "baic",
+                       "slug":  "u5-plus",
+                       "nameAz":  "U5 Plus",
+                       "nameEn":  "U5 Plus"
+                   },
+                   {
+                       "id":  499,
+                       "makeSlug":  "leapmotor",
+                       "slug":  "t03",
+                       "nameAz":  "T03",
+                       "nameEn":  "T03"
+                   },
+                   {
+                       "id":  500,
+                       "makeSlug":  "leapmotor",
+                       "slug":  "c10",
+                       "nameAz":  "C10",
+                       "nameEn":  "C10"
+                   },
+                   {
+                       "id":  501,
+                       "makeSlug":  "leapmotor",
+                       "slug":  "c11",
+                       "nameAz":  "C11",
+                       "nameEn":  "C11"
+                   },
+                   {
+                       "id":  502,
+                       "makeSlug":  "leapmotor",
+                       "slug":  "c16",
+                       "nameAz":  "C16",
+                       "nameEn":  "C16"
+                   },
+                   {
+                       "id":  503,
+                       "makeSlug":  "leapmotor",
+                       "slug":  "b10",
+                       "nameAz":  "B10",
+                       "nameEn":  "B10"
+                   },
+                   {
+                       "id":  504,
+                       "makeSlug":  "nio",
+                       "slug":  "et5",
+                       "nameAz":  "ET5",
+                       "nameEn":  "ET5"
+                   },
+                   {
+                       "id":  505,
+                       "makeSlug":  "nio",
+                       "slug":  "et7",
+                       "nameAz":  "ET7",
+                       "nameEn":  "ET7"
+                   },
+                   {
+                       "id":  506,
+                       "makeSlug":  "nio",
+                       "slug":  "et9",
+                       "nameAz":  "ET9",
+                       "nameEn":  "ET9"
+                   },
+                   {
+                       "id":  507,
+                       "makeSlug":  "nio",
+                       "slug":  "es6",
+                       "nameAz":  "ES6",
+                       "nameEn":  "ES6"
+                   },
+                   {
+                       "id":  508,
+                       "makeSlug":  "nio",
+                       "slug":  "es7",
+                       "nameAz":  "ES7",
+                       "nameEn":  "ES7"
+                   },
+                   {
+                       "id":  509,
+                       "makeSlug":  "nio",
+                       "slug":  "es8",
+                       "nameAz":  "ES8",
+                       "nameEn":  "ES8"
+                   },
+                   {
+                       "id":  510,
+                       "makeSlug":  "nio",
+                       "slug":  "ec6",
+                       "nameAz":  "EC6",
+                       "nameEn":  "EC6"
+                   },
+                   {
+                       "id":  511,
+                       "makeSlug":  "nio",
+                       "slug":  "ec7",
+                       "nameAz":  "EC7",
+                       "nameEn":  "EC7"
+                   },
+                   {
+                       "id":  512,
+                       "makeSlug":  "nio",
+                       "slug":  "el6",
+                       "nameAz":  "EL6",
+                       "nameEn":  "EL6"
+                   },
+                   {
+                       "id":  513,
+                       "makeSlug":  "nio",
+                       "slug":  "el7",
+                       "nameAz":  "EL7",
+                       "nameEn":  "EL7"
+                   },
+                   {
+                       "id":  514,
+                       "makeSlug":  "nio",
+                       "slug":  "el8",
+                       "nameAz":  "EL8",
+                       "nameEn":  "EL8"
+                   },
+                   {
+                       "id":  515,
+                       "makeSlug":  "voyah",
+                       "slug":  "free",
+                       "nameAz":  "Free",
+                       "nameEn":  "Free"
+                   },
+                   {
+                       "id":  516,
+                       "makeSlug":  "voyah",
+                       "slug":  "dream",
+                       "nameAz":  "Dream",
+                       "nameEn":  "Dream"
+                   },
+                   {
+                       "id":  517,
+                       "makeSlug":  "voyah",
+                       "slug":  "passion",
+                       "nameAz":  "Passion",
+                       "nameEn":  "Passion"
+                   },
+                   {
+                       "id":  518,
+                       "makeSlug":  "voyah",
+                       "slug":  "courage",
+                       "nameAz":  "Courage",
+                       "nameEn":  "Courage"
+                   },
+                   {
+                       "id":  519,
+                       "makeSlug":  "seres",
+                       "slug":  "seres-3",
+                       "nameAz":  "Seres 3",
+                       "nameEn":  "Seres 3"
+                   },
+                   {
+                       "id":  520,
+                       "makeSlug":  "seres",
+                       "slug":  "seres-5",
+                       "nameAz":  "Seres 5",
+                       "nameEn":  "Seres 5"
+                   },
+                   {
+                       "id":  521,
+                       "makeSlug":  "seres",
+                       "slug":  "seres-7",
+                       "nameAz":  "Seres 7",
+                       "nameEn":  "Seres 7"
+                   },
+                   {
+                       "id":  522,
+                       "makeSlug":  "seres",
+                       "slug":  "aito-m5",
+                       "nameAz":  "Aito M5",
+                       "nameEn":  "Aito M5"
+                   },
+                   {
+                       "id":  523,
+                       "makeSlug":  "seres",
+                       "slug":  "aito-m7",
+                       "nameAz":  "Aito M7",
+                       "nameEn":  "Aito M7"
+                   },
+                   {
+                       "id":  524,
+                       "makeSlug":  "seres",
+                       "slug":  "aito-m9",
+                       "nameAz":  "Aito M9",
+                       "nameEn":  "Aito M9"
+                   },
+                   {
+                       "id":  525,
+                       "makeSlug":  "dacia",
+                       "slug":  "logan",
+                       "nameAz":  "Logan",
+                       "nameEn":  "Logan"
+                   },
+                   {
+                       "id":  526,
+                       "makeSlug":  "dacia",
+                       "slug":  "sandero",
+                       "nameAz":  "Sandero",
+                       "nameEn":  "Sandero"
+                   },
+                   {
+                       "id":  527,
+                       "makeSlug":  "dacia",
+                       "slug":  "duster",
+                       "nameAz":  "Duster",
+                       "nameEn":  "Duster"
+                   },
+                   {
+                       "id":  528,
+                       "makeSlug":  "dacia",
+                       "slug":  "jogger",
+                       "nameAz":  "Jogger",
+                       "nameEn":  "Jogger"
+                   },
+                   {
+                       "id":  529,
+                       "makeSlug":  "dacia",
+                       "slug":  "spring",
+                       "nameAz":  "Spring",
+                       "nameEn":  "Spring"
+                   },
+                   {
+                       "id":  530,
+                       "makeSlug":  "dacia",
+                       "slug":  "bigster",
+                       "nameAz":  "Bigster",
+                       "nameEn":  "Bigster"
+                   },
+                   {
+                       "id":  531,
+                       "makeSlug":  "fiat",
+                       "slug":  "500",
+                       "nameAz":  "500",
+                       "nameEn":  "500"
+                   },
+                   {
+                       "id":  532,
+                       "makeSlug":  "fiat",
+                       "slug":  "500x",
+                       "nameAz":  "500X",
+                       "nameEn":  "500X"
+                   },
+                   {
+                       "id":  533,
+                       "makeSlug":  "fiat",
+                       "slug":  "panda",
+                       "nameAz":  "Panda",
+                       "nameEn":  "Panda"
+                   },
+                   {
+                       "id":  534,
+                       "makeSlug":  "fiat",
+                       "slug":  "tipo",
+                       "nameAz":  "Tipo",
+                       "nameEn":  "Tipo"
+                   },
+                   {
+                       "id":  535,
+                       "makeSlug":  "fiat",
+                       "slug":  "punto",
+                       "nameAz":  "Punto",
+                       "nameEn":  "Punto"
+                   },
+                   {
+                       "id":  536,
+                       "makeSlug":  "fiat",
+                       "slug":  "doblo",
+                       "nameAz":  "Doblo",
+                       "nameEn":  "Doblo"
+                   },
+                   {
+                       "id":  537,
+                       "makeSlug":  "fiat",
+                       "slug":  "600",
+                       "nameAz":  "600",
+                       "nameEn":  "600"
+                   },
+                   {
+                       "id":  538,
+                       "makeSlug":  "fiat",
+                       "slug":  "grande-panda",
+                       "nameAz":  "Grande Panda",
+                       "nameEn":  "Grande Panda"
+                   },
+                   {
+                       "id":  539,
+                       "makeSlug":  "alfa-romeo",
+                       "slug":  "giulia",
+                       "nameAz":  "Giulia",
+                       "nameEn":  "Giulia"
+                   },
+                   {
+                       "id":  540,
+                       "makeSlug":  "alfa-romeo",
+                       "slug":  "stelvio",
+                       "nameAz":  "Stelvio",
+                       "nameEn":  "Stelvio"
+                   },
+                   {
+                       "id":  541,
+                       "makeSlug":  "alfa-romeo",
+                       "slug":  "tonale",
+                       "nameAz":  "Tonale",
+                       "nameEn":  "Tonale"
+                   },
+                   {
+                       "id":  542,
+                       "makeSlug":  "alfa-romeo",
+                       "slug":  "junior",
+                       "nameAz":  "Junior",
+                       "nameEn":  "Junior"
+                   },
+                   {
+                       "id":  543,
+                       "makeSlug":  "alfa-romeo",
+                       "slug":  "giulietta",
+                       "nameAz":  "Giulietta",
+                       "nameEn":  "Giulietta"
+                   },
+                   {
+                       "id":  544,
+                       "makeSlug":  "alfa-romeo",
+                       "slug":  "159",
+                       "nameAz":  "159",
+                       "nameEn":  "159"
+                   },
+                   {
+                       "id":  545,
+                       "makeSlug":  "bentley",
+                       "slug":  "bentayga",
+                       "nameAz":  "Bentayga",
+                       "nameEn":  "Bentayga"
+                   },
+                   {
+                       "id":  546,
+                       "makeSlug":  "bentley",
+                       "slug":  "continental-gt",
+                       "nameAz":  "Continental GT",
+                       "nameEn":  "Continental GT"
+                   },
+                   {
+                       "id":  547,
+                       "makeSlug":  "bentley",
+                       "slug":  "flying-spur",
+                       "nameAz":  "Flying Spur",
+                       "nameEn":  "Flying Spur"
+                   },
+                   {
+                       "id":  548,
+                       "makeSlug":  "bentley",
+                       "slug":  "continental-gtc",
+                       "nameAz":  "Continental GTC",
+                       "nameEn":  "Continental GTC"
+                   },
+                   {
+                       "id":  549,
+                       "makeSlug":  "bentley",
+                       "slug":  "mulsanne",
+                       "nameAz":  "Mulsanne",
+                       "nameEn":  "Mulsanne"
+                   },
+                   {
+                       "id":  550,
+                       "makeSlug":  "rolls-royce",
+                       "slug":  "cullinan",
+                       "nameAz":  "Cullinan",
+                       "nameEn":  "Cullinan"
+                   },
+                   {
+                       "id":  551,
+                       "makeSlug":  "rolls-royce",
+                       "slug":  "ghost",
+                       "nameAz":  "Ghost",
+                       "nameEn":  "Ghost"
+                   },
+                   {
+                       "id":  552,
+                       "makeSlug":  "rolls-royce",
+                       "slug":  "phantom",
+                       "nameAz":  "Phantom",
+                       "nameEn":  "Phantom"
+                   },
+                   {
+                       "id":  553,
+                       "makeSlug":  "rolls-royce",
+                       "slug":  "spectre",
+                       "nameAz":  "Spectre",
+                       "nameEn":  "Spectre"
+                   },
+                   {
+                       "id":  554,
+                       "makeSlug":  "rolls-royce",
+                       "slug":  "wraith",
+                       "nameAz":  "Wraith",
+                       "nameEn":  "Wraith"
+                   },
+                   {
+                       "id":  555,
+                       "makeSlug":  "rolls-royce",
+                       "slug":  "dawn",
+                       "nameAz":  "Dawn",
+                       "nameEn":  "Dawn"
+                   },
+                   {
+                       "id":  556,
+                       "makeSlug":  "maserati",
+                       "slug":  "ghibli",
+                       "nameAz":  "Ghibli",
+                       "nameEn":  "Ghibli"
+                   },
+                   {
+                       "id":  557,
+                       "makeSlug":  "maserati",
+                       "slug":  "quattroporte",
+                       "nameAz":  "Quattroporte",
+                       "nameEn":  "Quattroporte"
+                   },
+                   {
+                       "id":  558,
+                       "makeSlug":  "maserati",
+                       "slug":  "levante",
+                       "nameAz":  "Levante",
+                       "nameEn":  "Levante"
+                   },
+                   {
+                       "id":  559,
+                       "makeSlug":  "maserati",
+                       "slug":  "grecale",
+                       "nameAz":  "Grecale",
+                       "nameEn":  "Grecale"
+                   },
+                   {
+                       "id":  560,
+                       "makeSlug":  "maserati",
+                       "slug":  "mc20",
+                       "nameAz":  "MC20",
+                       "nameEn":  "MC20"
+                   },
+                   {
+                       "id":  561,
+                       "makeSlug":  "maserati",
+                       "slug":  "granturismo",
+                       "nameAz":  "GranTurismo",
+                       "nameEn":  "GranTurismo"
+                   },
+                   {
+                       "id":  562,
+                       "makeSlug":  "maserati",
+                       "slug":  "grancabrio",
+                       "nameAz":  "GranCabrio",
+                       "nameEn":  "GranCabrio"
+                   },
+                   {
+                       "id":  563,
+                       "makeSlug":  "acura",
+                       "slug":  "integra",
+                       "nameAz":  "Integra",
+                       "nameEn":  "Integra"
+                   },
+                   {
+                       "id":  564,
+                       "makeSlug":  "acura",
+                       "slug":  "tlx",
+                       "nameAz":  "TLX",
+                       "nameEn":  "TLX"
+                   },
+                   {
+                       "id":  565,
+                       "makeSlug":  "acura",
+                       "slug":  "ilx",
+                       "nameAz":  "ILX",
+                       "nameEn":  "ILX"
+                   },
+                   {
+                       "id":  566,
+                       "makeSlug":  "acura",
+                       "slug":  "rlx",
+                       "nameAz":  "RLX",
+                       "nameEn":  "RLX"
+                   },
+                   {
+                       "id":  567,
+                       "makeSlug":  "acura",
+                       "slug":  "mdx",
+                       "nameAz":  "MDX",
+                       "nameEn":  "MDX"
+                   },
+                   {
+                       "id":  568,
+                       "makeSlug":  "acura",
+                       "slug":  "rdx",
+                       "nameAz":  "RDX",
+                       "nameEn":  "RDX"
+                   },
+                   {
+                       "id":  569,
+                       "makeSlug":  "acura",
+                       "slug":  "zdx",
+                       "nameAz":  "ZDX",
+                       "nameEn":  "ZDX"
+                   },
+                   {
+                       "id":  570,
+                       "makeSlug":  "acura",
+                       "slug":  "nsx",
+                       "nameAz":  "NSX",
+                       "nameEn":  "NSX"
+                   },
+                   {
+                       "id":  571,
+                       "makeSlug":  "lincoln",
+                       "slug":  "navigator",
+                       "nameAz":  "Navigator",
+                       "nameEn":  "Navigator"
+                   },
+                   {
+                       "id":  572,
+                       "makeSlug":  "lincoln",
+                       "slug":  "aviator",
+                       "nameAz":  "Aviator",
+                       "nameEn":  "Aviator"
+                   },
+                   {
+                       "id":  573,
+                       "makeSlug":  "lincoln",
+                       "slug":  "nautilus",
+                       "nameAz":  "Nautilus",
+                       "nameEn":  "Nautilus"
+                   },
+                   {
+                       "id":  574,
+                       "makeSlug":  "lincoln",
+                       "slug":  "corsair",
+                       "nameAz":  "Corsair",
+                       "nameEn":  "Corsair"
+                   },
+                   {
+                       "id":  575,
+                       "makeSlug":  "lincoln",
+                       "slug":  "continental",
+                       "nameAz":  "Continental",
+                       "nameEn":  "Continental"
+                   },
+                   {
+                       "id":  576,
+                       "makeSlug":  "lincoln",
+                       "slug":  "mkz",
+                       "nameAz":  "MKZ",
+                       "nameEn":  "MKZ"
+                   },
+                   {
+                       "id":  577,
+                       "makeSlug":  "dodge",
+                       "slug":  "charger",
+                       "nameAz":  "Charger",
+                       "nameEn":  "Charger"
+                   },
+                   {
+                       "id":  578,
+                       "makeSlug":  "dodge",
+                       "slug":  "challenger",
+                       "nameAz":  "Challenger",
+                       "nameEn":  "Challenger"
+                   },
+                   {
+                       "id":  579,
+                       "makeSlug":  "dodge",
+                       "slug":  "durango",
+                       "nameAz":  "Durango",
+                       "nameEn":  "Durango"
+                   },
+                   {
+                       "id":  580,
+                       "makeSlug":  "dodge",
+                       "slug":  "journey",
+                       "nameAz":  "Journey",
+                       "nameEn":  "Journey"
+                   },
+                   {
+                       "id":  581,
+                       "makeSlug":  "dodge",
+                       "slug":  "hornet",
+                       "nameAz":  "Hornet",
+                       "nameEn":  "Hornet"
+                   },
+                   {
+                       "id":  582,
+                       "makeSlug":  "dodge",
+                       "slug":  "viper",
+                       "nameAz":  "Viper",
+                       "nameEn":  "Viper"
+                   },
+                   {
+                       "id":  583,
+                       "makeSlug":  "seat",
+                       "slug":  "ibiza",
+                       "nameAz":  "Ibiza",
+                       "nameEn":  "Ibiza"
+                   },
+                   {
+                       "id":  584,
+                       "makeSlug":  "seat",
+                       "slug":  "leon",
+                       "nameAz":  "Leon",
+                       "nameEn":  "Leon"
+                   },
+                   {
+                       "id":  585,
+                       "makeSlug":  "seat",
+                       "slug":  "arona",
+                       "nameAz":  "Arona",
+                       "nameEn":  "Arona"
+                   },
+                   {
+                       "id":  586,
+                       "makeSlug":  "seat",
+                       "slug":  "ateca",
+                       "nameAz":  "Ateca",
+                       "nameEn":  "Ateca"
+                   },
+                   {
+                       "id":  587,
+                       "makeSlug":  "seat",
+                       "slug":  "tarraco",
+                       "nameAz":  "Tarraco",
+                       "nameEn":  "Tarraco"
+                   },
+                   {
+                       "id":  588,
+                       "makeSlug":  "smart",
+                       "slug":  "fortwo",
+                       "nameAz":  "ForTwo",
+                       "nameEn":  "ForTwo"
+                   },
+                   {
+                       "id":  589,
+                       "makeSlug":  "smart",
+                       "slug":  "forfour",
+                       "nameAz":  "ForFour",
+                       "nameEn":  "ForFour"
+                   },
+                   {
+                       "id":  590,
+                       "makeSlug":  "smart",
+                       "slug":  "roadster",
+                       "nameAz":  "Roadster",
+                       "nameEn":  "Roadster"
+                   },
+                   {
+                       "id":  591,
+                       "makeSlug":  "smart",
+                       "slug":  "1",
+                       "nameAz":  "#1",
+                       "nameEn":  "#1"
+                   },
+                   {
+                       "id":  592,
+                       "makeSlug":  "smart",
+                       "slug":  "3",
+                       "nameAz":  "#3",
+                       "nameEn":  "#3"
+                   },
+                   {
+                       "id":  593,
+                       "makeSlug":  "kgm",
+                       "slug":  "tivoli",
+                       "nameAz":  "Tivoli",
+                       "nameEn":  "Tivoli"
+                   },
+                   {
+                       "id":  594,
+                       "makeSlug":  "kgm",
+                       "slug":  "korando",
+                       "nameAz":  "Korando",
+                       "nameEn":  "Korando"
+                   },
+                   {
+                       "id":  595,
+                       "makeSlug":  "kgm",
+                       "slug":  "rexton",
+                       "nameAz":  "Rexton",
+                       "nameEn":  "Rexton"
+                   },
+                   {
+                       "id":  596,
+                       "makeSlug":  "kgm",
+                       "slug":  "torres",
+                       "nameAz":  "Torres",
+                       "nameEn":  "Torres"
+                   },
+                   {
+                       "id":  597,
+                       "makeSlug":  "kgm",
+                       "slug":  "musso",
+                       "nameAz":  "Musso",
+                       "nameEn":  "Musso"
+                   },
+                   {
+                       "id":  598,
+                       "makeSlug":  "kgm",
+                       "slug":  "actyon",
+                       "nameAz":  "Actyon",
+                       "nameEn":  "Actyon"
+                   },
+                   {
+                       "id":  599,
+                       "makeSlug":  "lynk-and-co",
+                       "slug":  "01",
+                       "nameAz":  "01",
+                       "nameEn":  "01"
+                   },
+                   {
+                       "id":  600,
+                       "makeSlug":  "lynk-and-co",
+                       "slug":  "02",
+                       "nameAz":  "02",
+                       "nameEn":  "02"
+                   },
+                   {
+                       "id":  601,
+                       "makeSlug":  "lynk-and-co",
+                       "slug":  "03",
+                       "nameAz":  "03",
+                       "nameEn":  "03"
+                   },
+                   {
+                       "id":  602,
+                       "makeSlug":  "lynk-and-co",
+                       "slug":  "05",
+                       "nameAz":  "05",
+                       "nameEn":  "05"
+                   },
+                   {
+                       "id":  603,
+                       "makeSlug":  "lynk-and-co",
+                       "slug":  "06",
+                       "nameAz":  "06",
+                       "nameEn":  "06"
+                   },
+                   {
+                       "id":  604,
+                       "makeSlug":  "lynk-and-co",
+                       "slug":  "08",
+                       "nameAz":  "08",
+                       "nameEn":  "08"
+                   },
+                   {
+                       "id":  605,
+                       "makeSlug":  "lynk-and-co",
+                       "slug":  "09",
+                       "nameAz":  "09",
+                       "nameEn":  "09"
+                   },
+                   {
+                       "id":  606,
+                       "makeSlug":  "daewoo",
+                       "slug":  "matiz",
+                       "nameAz":  "Matiz",
+                       "nameEn":  "Matiz"
+                   },
+                   {
+                       "id":  607,
+                       "makeSlug":  "daewoo",
+                       "slug":  "nexia",
+                       "nameAz":  "Nexia",
+                       "nameEn":  "Nexia"
+                   },
+                   {
+                       "id":  608,
+                       "makeSlug":  "daewoo",
+                       "slug":  "lanos",
+                       "nameAz":  "Lanos",
+                       "nameEn":  "Lanos"
+                   },
+                   {
+                       "id":  609,
+                       "makeSlug":  "daewoo",
+                       "slug":  "leganza",
+                       "nameAz":  "Leganza",
+                       "nameEn":  "Leganza"
+                   },
+                   {
+                       "id":  610,
+                       "makeSlug":  "daewoo",
+                       "slug":  "lacetti",
+                       "nameAz":  "Lacetti",
+                       "nameEn":  "Lacetti"
+                   },
+                   {
+                       "id":  611,
+                       "makeSlug":  "daewoo",
+                       "slug":  "magnus",
+                       "nameAz":  "Magnus",
+                       "nameEn":  "Magnus"
+                   },
+                   {
+                       "id":  612,
+                       "makeSlug":  "daewoo",
+                       "slug":  "tosca",
+                       "nameAz":  "Tosca",
+                       "nameEn":  "Tosca"
+                   },
+                   {
+                       "id":  613,
+                       "makeSlug":  "daewoo",
+                       "slug":  "winstorm",
+                       "nameAz":  "Winstorm",
+                       "nameEn":  "Winstorm"
+                   },
+                   {
+                       "id":  614,
+                       "makeSlug":  "daihatsu",
+                       "slug":  "terios",
+                       "nameAz":  "Terios",
+                       "nameEn":  "Terios"
+                   },
+                   {
+                       "id":  615,
+                       "makeSlug":  "daihatsu",
+                       "slug":  "sirion",
+                       "nameAz":  "Sirion",
+                       "nameEn":  "Sirion"
+                   },
+                   {
+                       "id":  616,
+                       "makeSlug":  "daihatsu",
+                       "slug":  "mira",
+                       "nameAz":  "Mira",
+                       "nameEn":  "Mira"
+                   },
+                   {
+                       "id":  617,
+                       "makeSlug":  "daihatsu",
+                       "slug":  "rocky",
+                       "nameAz":  "Rocky",
+                       "nameEn":  "Rocky"
+                   },
+                   {
+                       "id":  618,
+                       "makeSlug":  "daihatsu",
+                       "slug":  "copen",
+                       "nameAz":  "Copen",
+                       "nameEn":  "Copen"
+                   },
+                   {
+                       "id":  619,
+                       "makeSlug":  "daihatsu",
+                       "slug":  "move",
+                       "nameAz":  "Move",
+                       "nameEn":  "Move"
+                   },
+                   {
+                       "id":  620,
+                       "makeSlug":  "daihatsu",
+                       "slug":  "tanto",
+                       "nameAz":  "Tanto",
+                       "nameEn":  "Tanto"
+                   },
+                   {
+                       "id":  621,
+                       "makeSlug":  "buick",
+                       "slug":  "envision",
+                       "nameAz":  "Envision",
+                       "nameEn":  "Envision"
+                   },
+                   {
+                       "id":  622,
+                       "makeSlug":  "buick",
+                       "slug":  "enclave",
+                       "nameAz":  "Enclave",
+                       "nameEn":  "Enclave"
+                   },
+                   {
+                       "id":  623,
+                       "makeSlug":  "buick",
+                       "slug":  "encore",
+                       "nameAz":  "Encore",
+                       "nameEn":  "Encore"
+                   },
+                   {
+                       "id":  624,
+                       "makeSlug":  "buick",
+                       "slug":  "encore-gx",
+                       "nameAz":  "Encore GX",
+                       "nameEn":  "Encore GX"
+                   },
+                   {
+                       "id":  625,
+                       "makeSlug":  "buick",
+                       "slug":  "envista",
+                       "nameAz":  "Envista",
+                       "nameEn":  "Envista"
+                   },
+                   {
+                       "id":  626,
+                       "makeSlug":  "buick",
+                       "slug":  "electra-e5",
+                       "nameAz":  "Electra E5",
+                       "nameEn":  "Electra E5"
+                   },
+                   {
+                       "id":  627,
+                       "makeSlug":  "gmc",
+                       "slug":  "terrain",
+                       "nameAz":  "Terrain",
+                       "nameEn":  "Terrain"
+                   },
+                   {
+                       "id":  628,
+                       "makeSlug":  "gmc",
+                       "slug":  "acadia",
+                       "nameAz":  "Acadia",
+                       "nameEn":  "Acadia"
+                   },
+                   {
+                       "id":  629,
+                       "makeSlug":  "gmc",
+                       "slug":  "yukon",
+                       "nameAz":  "Yukon",
+                       "nameEn":  "Yukon"
+                   },
+                   {
+                       "id":  630,
+                       "makeSlug":  "gmc",
+                       "slug":  "canyon",
+                       "nameAz":  "Canyon",
+                       "nameEn":  "Canyon"
+                   },
+                   {
+                       "id":  631,
+                       "makeSlug":  "gmc",
+                       "slug":  "sierra",
+                       "nameAz":  "Sierra",
+                       "nameEn":  "Sierra"
+                   },
+                   {
+                       "id":  632,
+                       "makeSlug":  "gmc",
+                       "slug":  "hummer-ev",
+                       "nameAz":  "Hummer EV",
+                       "nameEn":  "Hummer EV"
+                   },
+                   {
+                       "id":  633,
+                       "makeSlug":  "isuzu",
+                       "slug":  "d-max",
+                       "nameAz":  "D-Max",
+                       "nameEn":  "D-Max"
+                   },
+                   {
+                       "id":  634,
+                       "makeSlug":  "isuzu",
+                       "slug":  "mu-x",
+                       "nameAz":  "MU-X",
+                       "nameEn":  "MU-X"
+                   },
+                   {
+                       "id":  635,
+                       "makeSlug":  "isuzu",
+                       "slug":  "mu-7",
+                       "nameAz":  "MU-7",
+                       "nameEn":  "MU-7"
+                   },
+                   {
+                       "id":  636,
+                       "makeSlug":  "chrysler",
+                       "slug":  "300",
+                       "nameAz":  "300",
+                       "nameEn":  "300"
+                   },
+                   {
+                       "id":  637,
+                       "makeSlug":  "chrysler",
+                       "slug":  "pacifica",
+                       "nameAz":  "Pacifica",
+                       "nameEn":  "Pacifica"
+                   },
+                   {
+                       "id":  638,
+                       "makeSlug":  "chrysler",
+                       "slug":  "voyager",
+                       "nameAz":  "Voyager",
+                       "nameEn":  "Voyager"
+                   },
+                   {
+                       "id":  639,
+                       "makeSlug":  "chrysler",
+                       "slug":  "town-and-country",
+                       "nameAz":  "Town \u0026 Country",
+                       "nameEn":  "Town \u0026 Country"
+                   },
+                   {
+                       "id":  640,
+                       "makeSlug":  "chrysler",
+                       "slug":  "200",
+                       "nameAz":  "200",
+                       "nameEn":  "200"
+                   },
+                   {
+                       "id":  641,
+                       "makeSlug":  "cupra",
+                       "slug":  "formentor",
+                       "nameAz":  "Formentor",
+                       "nameEn":  "Formentor"
+                   },
+                   {
+                       "id":  642,
+                       "makeSlug":  "cupra",
+                       "slug":  "born",
+                       "nameAz":  "Born",
+                       "nameEn":  "Born"
+                   },
+                   {
+                       "id":  643,
+                       "makeSlug":  "cupra",
+                       "slug":  "leon",
+                       "nameAz":  "Leon",
+                       "nameEn":  "Leon"
+                   },
+                   {
+                       "id":  644,
+                       "makeSlug":  "cupra",
+                       "slug":  "ateca",
+                       "nameAz":  "Ateca",
+                       "nameEn":  "Ateca"
+                   },
+                   {
+                       "id":  645,
+                       "makeSlug":  "cupra",
+                       "slug":  "terramar",
+                       "nameAz":  "Terramar",
+                       "nameEn":  "Terramar"
+                   },
+                   {
+                       "id":  646,
+                       "makeSlug":  "cupra",
+                       "slug":  "tavascan",
+                       "nameAz":  "Tavascan",
+                       "nameEn":  "Tavascan"
+                   },
+                   {
+                       "id":  647,
+                       "makeSlug":  "ram",
+                       "slug":  "1500",
+                       "nameAz":  "1500",
+                       "nameEn":  "1500"
+                   },
+                   {
+                       "id":  648,
+                       "makeSlug":  "ram",
+                       "slug":  "2500",
+                       "nameAz":  "2500",
+                       "nameEn":  "2500"
+                   },
+                   {
+                       "id":  649,
+                       "makeSlug":  "ram",
+                       "slug":  "3500",
+                       "nameAz":  "3500",
+                       "nameEn":  "3500"
+                   },
+                   {
+                       "id":  650,
+                       "makeSlug":  "ram",
+                       "slug":  "promaster",
+                       "nameAz":  "ProMaster",
+                       "nameEn":  "ProMaster"
+                   },
+                   {
+                       "id":  651,
+                       "makeSlug":  "ram",
+                       "slug":  "rampage",
+                       "nameAz":  "Rampage",
+                       "nameEn":  "Rampage"
+                   }
+               ]
+}

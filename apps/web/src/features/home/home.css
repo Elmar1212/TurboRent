@@ -1,0 +1,46 @@
+.home-hero { background: linear-gradient(120deg, #1f2733 0%, #2b3442 55%, #3a2025 100%); color: #fff; border-radius: var(--radius-lg);
+  padding: 36px 32px 24px; margin-bottom: 16px; position: relative; overflow: hidden; }
+.home-hero::after { content: ""; position: absolute; right: -80px; top: -80px; width: 320px; height: 320px; border-radius: 50%;
+  background: radial-gradient(circle, rgb(215 38 47 / 45%), transparent 70%); pointer-events: none; }
+.home-hero-copy { position: relative; z-index: 1; max-width: 640px; }
+.home-hero h1 { color: #fff; font-size: clamp(26px, 4vw, 40px); margin-bottom: 8px; }
+.home-hero-copy > p:last-child { color: #c9d0da; font-size: 16px; }
+.home-badge { display: inline-block; background: var(--red); color: #fff; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 12px; }
+.home-search { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) auto; gap: 10px;
+  background: #fff; border-radius: var(--radius); padding: 12px; margin-top: 20px; box-shadow: var(--shadow-lg); }
+.home-search label { display: grid; gap: 4px; font-size: 12px; font-weight: 600; color: var(--muted); min-width: 0; }
+.home-search select, .home-search input { min-height: 42px; border: 1px solid var(--line-strong); border-radius: 8px; padding: 8px 10px; background: #fff; color: var(--ink); font-size: 15px; width: 100%; }
+.home-search select:disabled { background: #f6f7f9; }
+.home-search .btn { align-self: end; min-height: 42px; padding: 0 28px; }
+.home-makes { position: relative; z-index: 1; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; font-size: 13px; color: #c9d0da; }
+.home-makes a { color: #fff; text-decoration: none; border: 1px solid rgb(255 255 255 / 25%); padding: 3px 10px; border-radius: 999px; }
+.home-makes a:hover { background: rgb(255 255 255 / 12%); }
+.home-stats { list-style: none; padding: 0; margin: 0 0 28px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.home-stats li { background: var(--card); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 12px; font-size: 14px; color: var(--ink-2); }
+.home-stats b { width: 34px; height: 34px; flex-shrink: 0; border-radius: 8px; background: var(--red-soft); color: var(--red); display: grid; place-items: center; font-size: 16px; }
+.home-section { margin-bottom: 36px; scroll-margin-top: 80px; }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 14px; }
+.section-head h2 { margin: 0; font-size: 22px; }
+.section-link { color: var(--red); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.section-link:hover { text-decoration: underline; }
+.how h2 { font-size: 22px; }
+.how-steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.how-steps li { background: var(--card); border-radius: var(--radius-lg); padding: 20px; box-shadow: var(--shadow); }
+.how-steps p { color: var(--muted); margin: 0; font-size: 14px; }
+.how-number { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--red); color: #fff; font-weight: 800; margin-bottom: 12px; }
+.owner-cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; background: var(--red); color: #fff; border-radius: var(--radius-lg); padding: 28px 32px; }
+.owner-cta h2 { color: #fff; font-size: 24px; margin-bottom: 6px; }
+.owner-cta p { margin: 0; max-width: 640px; color: #ffe1e3; }
+.not-found { margin-top: 24px; }
+.not-found-code { font-size: 72px; font-weight: 800; color: var(--red); margin: 0; line-height: 1; }
+
+@media (max-width: 960px) {
+  .home-search { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-search .btn { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .home-hero { padding: 24px 16px 18px; }
+  .home-search { grid-template-columns: 1fr; }
+  .home-stats, .how-steps { grid-template-columns: 1fr; }
+  .owner-cta { padding: 22px 20px; }
+}

@@ -17,5 +17,101 @@ services:
       timeout: 3s
       retries: 15
     restart: unless-stopped
+    networks:
+      - turborent
+  garage:
+    image: dxflrs/garage:v2.5.0
+    command: ["/garage", "server", "--single-node", "--default-bucket"]
+    ports:
+      - "127.0.0.1:3900:3900"
+    environment:
+      GARAGE_CONFIG_FILE: /etc/garage.toml
+      GARAGE_DEFAULT_ACCESS_KEY: ${GARAGE_DEFAULT_ACCESS_KEY:?Set GARAGE_DEFAULT_ACCESS_KEY in .env}
+      GARAGE_DEFAULT_SECRET_KEY: ${GARAGE_DEFAULT_SECRET_KEY:?Set GARAGE_DEFAULT_SECRET_KEY in .env}
+      GARAGE_DEFAULT_BUCKET: ${GARAGE_DEFAULT_BUCKET:?Set GARAGE_DEFAULT_BUCKET in .env}
+    volumes:
+      - ../../artifacts/garage/garage.toml:/etc/garage.toml:ro
+      - garage_data:/var/lib/garage
+    healthcheck:
+      test: ["CMD", "/garage", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      - turborent
+  api:
+    build:
+      context: ../..
+      dockerfile: src/backend/TurboRent.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:8080
+      ASPNETCORE_Kestrel__Certificates__Default__Path: /certs/turborent.pem
+      ASPNETCORE_Kestrel__Certificates__Default__KeyPath: /certs/turborent.key
+      ConnectionStrings__Database: "Host=postgres;Port=5432;Database=turborent;Username=turborent;Password=${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env};Timeout=3"
+      Identity__FrontendOrigin: https://localhost:${WEB_PORT:-5174}
+      Identity__MailboxPath: /app/artifacts/identity-local/mailbox
+      Identity__MailboxHostMount: "true"
+      AdminBootstrap__Secret: ${ADMIN_BOOTSTRAP_SECRET:?Run scripts/Initialize-Garage.ps1 to set ADMIN_BOOTSTRAP_SECRET}
+      Storage__S3Endpoint: http://garage:3900
+      Storage__AccessKey: ${GARAGE_DEFAULT_ACCESS_KEY:?Set GARAGE_DEFAULT_ACCESS_KEY in .env}
+      Storage__SecretKey: ${GARAGE_DEFAULT_SECRET_KEY:?Set GARAGE_DEFAULT_SECRET_KEY in .env}
+      Storage__Bucket: ${GARAGE_DEFAULT_BUCKET:?Set GARAGE_DEFAULT_BUCKET in .env}
+      Storage__S3Region: garage
+      # The API has no published port, so only containers on this network (nginx) can reach it.
+      ReverseProxy__TrustedNetworks: 172.16.0.0/12,10.0.0.0/8,192.168.0.0/16
+      Identity__DataProtectionKeysPath: /app/artifacts/identity-local/keys
+      # Optional real email. When Email__Smtp__Host is empty the local mailbox is used (Development only).
+      Email__Smtp__Host: ${SMTP_HOST:-}
+      Email__Smtp__Port: ${SMTP_PORT:-587}
+      Email__Smtp__Username: ${SMTP_USERNAME:-}
+      Email__Smtp__Password: ${SMTP_PASSWORD:-}
+      Email__FromAddress: ${EMAIL_FROM:-no-reply@turborent.local}
+    volumes:
+      - ../../artifacts/dev-certs:/certs:ro
+      - identity_data:/app/artifacts/identity-local
+      - ../../artifacts/identity-local/mailbox:/app/artifacts/identity-local/mailbox
+    depends_on:
+      postgres:
+        condition: service_healthy
+      garage:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "--insecure", "https://127.0.0.1:8080/api/v1/health/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    restart: unless-stopped
+    networks:
+      - turborent
+  web:
+    build:
+      context: ../..
+      dockerfile: apps/web/Dockerfile
+    ports:
+      - "127.0.0.1:${WEB_PORT:-5174}:443"
+    volumes:
+      - ../../artifacts/dev-certs:/etc/nginx/certs:ro
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://127.0.0.1:8080/healthz"]
+      interval: 10s
+      timeout: 3s
+      retries: 12
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      - turborent
 volumes:
   postgres_data:
+  garage_data:
+  identity_data:
+networks:
+  turborent:
+    name: turborent-network
+    driver: bridge

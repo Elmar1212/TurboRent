@@ -1,0 +1,40 @@
+@baseUrl = https://localhost:5174
+@userId = 00000000-0000-4000-8000-000000000000
+@csrfToken = paste-the-requestToken-from-the-csrf-response
+@adminEmail = admin@example.test
+@adminPassword = replace-with-local-admin-password
+@adminTotpCode = 000000
+
+### Get a CSRF token before signing in
+GET {{baseUrl}}/api/v1/auth/csrf
+
+### Sign in as an MFA Admin
+POST {{baseUrl}}/api/v1/auth/login
+Content-Type: application/json
+X-CSRF-TOKEN: {{csrfToken}}
+
+{
+  "email": "{{adminEmail}}",
+  "password": "{{adminPassword}}",
+  "totpCode": "{{adminTotpCode}}"
+}
+
+### List email-verified owner and company accounts waiting for review
+GET {{baseUrl}}/api/v1/admin/accounts?page=1&pageSize=20
+
+### Approve an account
+POST {{baseUrl}}/api/v1/admin/accounts/{{userId}}/approve
+X-CSRF-TOKEN: {{csrfToken}}
+
+### Reject an account with an allowed reason
+POST {{baseUrl}}/api/v1/admin/accounts/{{userId}}/reject
+Content-Type: application/json
+X-CSRF-TOKEN: {{csrfToken}}
+
+{
+  "reasonCode": "incomplete_information"
+}
+
+### Nonexistent account returns 404
+POST {{baseUrl}}/api/v1/admin/accounts/00000000-0000-4000-8000-000000000000/approve
+X-CSRF-TOKEN: {{csrfToken}}

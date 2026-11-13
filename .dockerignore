@@ -1,0 +1,12 @@
+.git
+.vs
+.vscode
+artifacts
+**/bin
+**/obj
+**/node_modules
+**/dist
+**/test-results
+**/playwright-report
+infra/docker/.env
+*.user

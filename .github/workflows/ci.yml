@@ -9,16 +9,16 @@ jobs:
       postgres:
         image: postgres:17.6-alpine
         env:
-          POSTGRES_DB: turborent
-          POSTGRES_USER: turborent
+          POSTGRES_DB: turborent_identity_test_ci
+          POSTGRES_USER: turborent_identity_test_ci
           POSTGRES_PASSWORD: ephemeral_ci_only
         ports: ['55432:5432']
         options: >-
-          --health-cmd "pg_isready -U turborent -d turborent"
+          --health-cmd "pg_isready -U turborent_identity_test_ci -d turborent_identity_test_ci"
           --health-interval 5s --health-timeout 3s --health-retries 15
     env:
-      TURBORENT_TEST_DATABASE: Host=127.0.0.1;Port=55432;Database=turborent;Username=turborent;Password=ephemeral_ci_only
-      ConnectionStrings__Database: Host=127.0.0.1;Port=55432;Database=turborent;Username=turborent;Password=ephemeral_ci_only
+      TURBORENT_TEST_DATABASE: Host=127.0.0.1;Port=55432;Database=turborent_identity_test_ci;Username=turborent_identity_test_ci;Password=ephemeral_ci_only
+      ConnectionStrings__Database: Host=127.0.0.1;Port=55432;Database=turborent_identity_test_ci;Username=turborent_identity_test_ci;Password=ephemeral_ci_only
       ASPNETCORE_ENVIRONMENT: Development
     steps:
       - uses: actions/checkout@v4
@@ -32,21 +32,21 @@ jobs:
           cache-dependency-path: apps/web/package-lock.json
       - run: dotnet restore TurboRent.slnx --locked-mode
       - run: dotnet build TurboRent.slnx --no-restore
+      - name: Restore local .NET tools (dotnet-ef)
+        run: dotnet tool restore
+      - name: Apply reviewed migration to isolated CI database
+        env:
+          PGPASSWORD: ephemeral_ci_only
+        run: psql -X -h 127.0.0.1 -p 55432 -U turborent_identity_test_ci -d turborent_identity_test_ci -v ON_ERROR_STOP=1 -f docs/migrations/InitialIdentity.sql
+      - name: Apply additive catalog migration to isolated CI database
+        run: dotnet ef database update --project src/backend/Modules/Catalog/TurboRent.Modules.Catalog/TurboRent.Modules.Catalog.csproj --startup-project src/backend/Modules/Catalog/TurboRent.Modules.Catalog/TurboRent.Modules.Catalog.csproj --context TurboRent.Modules.Catalog.Infrastructure.Persistence.CatalogDbContext
       - run: dotnet test TurboRent.slnx --no-build
       - run: npm ci
         working-directory: apps/web
-      - run: npm run build && npm run lint
+      - run: npm run build && npm run lint && npm run test:unit
         working-directory: apps/web
       - run: npx playwright install --with-deps chromium
         working-directory: apps/web
-      - name: Start API
-        run: |
-          dotnet run --no-build --no-launch-profile --project src/backend/TurboRent.Api --urls http://127.0.0.1:5080 > /tmp/turborent-api.log 2>&1 &
-          for attempt in {1..30}; do
-            if curl --fail http://127.0.0.1:5080/api/v1/health/ready; then exit 0; fi
-            sleep 1
-          done
-          cat /tmp/turborent-api.log
-          exit 1
-      - run: npm run test:e2e
-        working-directory: apps/web
+      - name: Secure isolated Identity and Foundation E2E
+        shell: pwsh
+        run: ./scripts/Test-IdentityE2E.ps1

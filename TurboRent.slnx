@@ -7,11 +7,20 @@
     <Project Path="src/backend/BuildingBlocks/TurboRent.BuildingBlocks/TurboRent.BuildingBlocks.csproj" />
   </Folder>
   <Folder Name="/src/backend/Modules/" />
+  <Folder Name="/src/backend/Modules/Identity/">
+    <Project Path="src/backend/Modules/Identity/TurboRent.Modules.Identity.Contracts/TurboRent.Modules.Identity.Contracts.csproj" />
+    <Project Path="src/backend/Modules/Identity/TurboRent.Modules.Identity/TurboRent.Modules.Identity.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Modules/Catalog/">
+    <Project Path="src/backend/Modules/Catalog/TurboRent.Modules.Catalog/TurboRent.Modules.Catalog.csproj" />
+  </Folder>
   <Folder Name="/src/backend/Modules/System/">
     <Project Path="src/backend/Modules/System/TurboRent.Modules.System/TurboRent.Modules.System.csproj" />
   </Folder>
   <Folder Name="/tests/" />
   <Folder Name="/tests/backend/">
+    <Project Path="tests/backend/TurboRent.Identity.IntegrationTests/TurboRent.Identity.IntegrationTests.csproj" />
+    <Project Path="tests/backend/TurboRent.Identity.UnitTests/TurboRent.Identity.UnitTests.csproj" />
     <Project Path="tests/backend/TurboRent.IntegrationTests/TurboRent.IntegrationTests.csproj" />
     <Project Path="tests/backend/TurboRent.UnitTests/TurboRent.UnitTests.csproj" />
   </Folder>
